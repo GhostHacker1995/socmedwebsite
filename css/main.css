@@ -2847,3 +2847,145 @@ section.error-404 .page-content p { font-size: 18px; margin-bottom: 30px; }
             margin: 16px 0 32px 0;
             border-radius: 4px;
         }
+
+        /* mega menu */
+
+    
+        /* ── Reset & base ── */
+        .smg-nav-wrap {
+            background:#fff;
+            border-bottom:1px solid #eee;
+            position:relative;
+            z-index:1000;
+            overflow:visible;
+        }
+        .smg-nav-inner { display:flex; align-items:center; justify-content:space-between; padding:0; height:80px; }
+
+        /* ── Logo ── */
+        .smg-logo img { height:60px; width:auto; display:block; }
+
+        /* ── Top-level menu ── */
+        .smg-menu { list-style:none; margin:0; padding:0; display:flex; align-items:center; gap:0; height:100%; }
+        .smg-menu > li { position:static; height:100%; display:flex; align-items:center; }
+        .smg-menu > li > a {
+            display:flex; align-items:center; gap:5px;
+            padding:0 18px; height:100%;
+            font-size:14px; font-weight:600; color:#1a2a3a;
+            text-decoration:none; white-space:nowrap;
+            border-bottom:3px solid transparent;
+            transition:color 0.2s, border-color 0.2s;
+        }
+        .smg-menu > li > a:hover,
+        .smg-menu > li.active > a { color:#F36F21; border-bottom-color:#4DADE1; }
+        .smg-menu > li > a .smg-caret { font-size:10px; opacity:0.6; }
+
+        /* ── Mega panel — full width anchored to .smg-nav-wrap ── */
+    .smg-mega {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    width:100%;
+    background:#fff;
+    border-top:3px solid #4DADE1;
+    box-shadow:0 12px 40px rgba(0,0,0,0.14);
+    z-index:999;
+}
+ 
+    .smg-menu > li.open .smg-mega { display:flex; }
+
+        /* Inner wrapper keeps content aligned to site container */
+    .smg-mega-inner {
+    display:flex;
+    width:100%;
+    max-width:100%;
+    margin:0;
+    min-height:220px;
+    padding-left:calc((100% - 1140px) / 2); /* aligns to Bootstrap container edge */
+}
+
+    .smg-mega-left {
+    background:#deeaf5;
+    padding:36px 36px;
+    width:300px;
+    flex-shrink:0;
+    display:flex; flex-direction:column; justify-content:space-between;
+    margin-left:0;  /* ensure no gap */
+}
+
+.smg-mega::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc((100% - 1140px) / 2); /* same value as your padding-left on smg-mega-inner */
+    height: 100%;
+    background: #deeaf5;
+}
+
+        .smg-mega-left h4 { font-size:20px; font-weight:700; color:#1a2a3a; margin:0 0 12px; }
+        .smg-mega-left p  { font-size:13px; color:#4a5a6a; line-height:1.7; margin:0 0 16px; }
+        .smg-mega-left .smg-readmore { font-size:13px; font-weight:700; color:#1a2a3a; text-decoration:none; }
+        .smg-mega-left .smg-readmore:hover { color:#F36F21; }
+        .smg-mega-left .smg-phone { display:flex; align-items:center; gap:8px; font-size:15px; font-weight:700; color:#1a2a3a; margin-top:auto; padding-top:20px; }
+        .smg-mega-left .smg-phone i { color:#4DADE1; }
+
+        .smg-mega-right { padding:28px 48px; flex:1; }
+        .smg-mega-right ul {
+    list-style:none; margin:0; padding:0;
+    display:block;  /* remove grid entirely */
+}
+        .smg-mega-right ul li 
+        { border-bottom:1px solid #eee; }
+        .smg-mega-right ul li:last-child { border-bottom:none; }
+        .smg-mega-right ul li a {
+            display:block; padding:14px 8px;
+            font-size:14px; font-weight:600; color:#1a2a3a;
+            text-decoration:none; transition:color 0.15s, padding-left 0.15s;
+        }
+
+        .smg-mega-right ul li a:hover { color:#F36F21; padding-left:12px; }
+
+        /* ── Right side actions ── */
+        .smg-actions { display:flex; align-items:center; gap:12px; flex-shrink:0; }
+        .smg-search-btn { background:none; border:none; cursor:pointer; font-size:18px; color:#1a2a3a; padding:6px; }
+        .smg-search-btn:hover { color:#F36F21; }
+        .smg-contact-btn {
+            background:#F36F21; color:#fff;
+            padding:10px 22px; border-radius:4px;
+            font-size:13px; font-weight:700;
+            text-decoration:none; white-space:nowrap;
+            transition:background 0.2s;
+        }
+        .smg-contact-btn:hover { background:#d45c0f; color:#fff; }
+
+        /* ── Mobile toggle ── */
+        .smg-mobile-toggle { display:none; background:none; border:none; cursor:pointer; padding:8px; }
+        .smg-mobile-toggle span { display:block; width:24px; height:2px; background:#1a2a3a; margin:5px 0; transition:all 0.3s; }
+
+        /* ── Mobile styles ── */
+        @media (max-width: 991px) {
+            .smg-menu { display:none; flex-direction:column; align-items:stretch; height:auto;
+                        position:absolute; top:100%; left:0; right:0;
+                        background:#fff; border-top:2px solid #F36F21;
+                        box-shadow:0 8px 24px rgba(0,0,0,0.1); z-index:998; }
+            .smg-menu.open { display:flex; }
+            .smg-menu > li { height:auto; flex-direction:column; align-items:stretch; }
+            .smg-menu > li > a { padding:14px 20px; border-bottom:1px solid #f0f0f0; border-left:3px solid transparent; }
+            .smg-menu > li > a:hover { border-left-color:#F36F21; border-bottom-color:#f0f0f0; }
+            .smg-mega { position:static; width:auto; border-top:none; box-shadow:none; flex-direction:column; display:none; }
+            .smg-mega-inner { flex-direction:column; max-width:100%; }
+            .smg-menu > li.mob-open .smg-mega { display:flex; }
+            .smg-mega-left { width:100%; padding:16px 20px; }
+            .smg-mega-left .smg-phone { display:none; }
+            .smg-mega-right { padding:8px 20px 16px; }
+            .smg-mega-right ul { grid-template-columns:1fr; }
+            .smg-mobile-toggle { display:block; }
+            .smg-actions .smg-contact-btn { display:none; }
+            .smg-nav-inner { height:64px; }
+        }
+    
+    /* ── Sub-dropdown on hover ── */
+.smg-mega-right ul li:hover .smg-sub-dropdown { display:block !important; }
+.smg-mega-right ul li { position:relative; }

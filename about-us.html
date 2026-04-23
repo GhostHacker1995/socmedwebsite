@@ -105,93 +105,197 @@
         </div>
         <!-- preloader end -->
 
-   <!--header start-->
 <header id="masthead" class="header ttm-header-style-classic">
-    <!-- ========== NEW: CALL FOR APPLICATIONS BANNER (separate, prominent) ========== -->
-    <div style="background: linear-gradient(135deg, #4DADE1 0%, #4DADE1 100%); color: white; padding: 12px 0; border-bottom: 3px solid #f4b942;">
-        <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 15px;">
-            <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 15px;">
-                <div style="display: flex; align-items: center; gap: 12px;">
-                    <i class="fa fa-bullhorn" style="font-size: 1.4rem; color: #f4b942;"></i>
-                    <span style="font-weight: 600; font-size: 0.95rem;">CALL FOR APPLICATIONS 2026 — Global Health in Local Contexts</span>
+
+    <!-- ═══ CALL FOR APPLICATIONS BANNER ═══ -->
+    <div style="background:linear-gradient(135deg, #F36F21 0%, #F36F21 100%); color:white; padding:10px 0; border-bottom:3px solid #4DADE1;">
+        <div class="container">
+            <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:15px;">
+                <div style="display:flex; align-items:center; gap:12px;">
+                    <i class="fa fa-bullhorn" style="font-size:1.2rem; color:#fff;"></i>
+                    <span style="font-weight:600; font-size:0.9rem;">CALL FOR APPLICATIONS 2026 — Global Health in Local Contexts</span>
                 </div>
-                <a href="apply.html" style="background-color: #f4b942; color: #4DADE1; padding: 8px 28px; border-radius: 40px; text-decoration: none; font-weight: 700; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 8px; transition: all 0.2s;">
-                    <i class="fa fa-pen-alt"></i> Apply Now →
+                <a href="apply.html" style="background-color:#fff; color:#F36F21; padding:7px 24px; border-radius:40px; text-decoration:none; font-weight:700; font-size:0.85rem; display:inline-flex; align-items:center; gap:8px;">
+                    Apply Now →
                 </a>
             </div>
         </div>
     </div>
-    <!-- ========== END CALL FOR APPLICATIONS BANNER ========== -->
+    <!-- ═══ END BANNER ═══ -->
 
-    <!-- ttm-header-wrap -->
-    <div class="ttm-header-wrap">
-        <!-- ttm-stickable-header-w -->
-        <div id="ttm-stickable-header-w" class="ttm-stickable-header-w clearfix">
-            <div id="site-header-menu" class="site-header-menu">
-                <div class="site-header-menu-inner ttm-stickable-header">
-                    <div class="container">
-                        <!-- site-branding -->
-                        <div class="site-branding">
-                            <a class="home-link" href="index.html" title="SocMed" rel="home">
-                                <img id="logo-img" class="img-center" src="images/logo.svg" width="180" height="100" alt="logo-img">
-                            </a>
-                        </div><!-- site-branding end -->
+    <!-- ═══ MAIN NAV ═══ -->
+    <div class="smg-nav-wrap">
+        <div class="container">
+            <div class="smg-nav-inner">
 
-                        <!--site-navigation -->
-                        <div id="site-navigation" class="site-navigation">
-                            <div class="header-btn">
-                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-black" href="contact-us.html">CONTACT US</a>
-                            </div>
-                            <!-- header-icons -->
-                            <div class="ttm-header-icons">
-                                <div class="ttm-header-icon ttm-header-search-link">
-                                    <a href="#"><i class="ti ti-search"></i></a>
-                                    <div class="ttm-search-overlay">
-                                        <form method="get" class="ttm-site-searchform" action="#">
-                                            <div class="w-search-form-h">
-                                                <div class="w-search-form-row">
-                                                    <div class="w-search-input">
-                                                        <input type="search" class="field searchform-s" name="s" placeholder="Type Word Then Enter...">
-                                                        <button type="submit">
-                                                            <i class="ti ti-search"></i>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div><!-- header-icons end -->
-                            <div class="ttm-menu-toggle">
-                                <input type="checkbox" id="menu-toggle-form" />
-                                <label for="menu-toggle-form" class="ttm-menu-toggle-block">
-                                    <span class="toggle-block toggle-blocks-1"></span>
-                                    <span class="toggle-block toggle-blocks-2"></span>
-                                    <span class="toggle-block toggle-blocks-3"></span>
-                                </label>
-                            </div>
-                            <nav id="menu" class="menu">
-                                <ul class="dropdown">
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="about-us.html">ABOUT US</a></li>
-                                    <li class="dropdown">
-                                        <a href="programs.html">Programmes</a>
-                                        <ul>
-                                            <li><a href="amuru.html">Amuru</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="news.html">NewsRoom</a></li>
-                                    <li><a href="careers.html">Careers</a></li>
-                                    <li><a href="contact-us.html">contact us</a></li>
-                                </ul>
-                            </nav>
-                        </div><!-- site-navigation end-->
-                    </div>
+                <!-- Logo -->
+                <div class="smg-logo">
+                    <a href="index.html">
+                        <img src="images/logo.svg" alt="SocMed Global Uganda">
+                    </a>
                 </div>
+
+                <!-- Nav -->
+                <ul class="smg-menu" id="smgMenu">
+
+                    <!-- Home -->
+                    <li class="active">
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <!-- About Us (mega) -->
+                    <li>
+                        <a href="about-us.html">About us <i class="fa fa-chevron-down smg-caret"></i></a>
+                        <div class="smg-mega">
+                            <div class="smg-mega-inner">
+                                <div class="smg-mega-left">
+                                    <div>
+                                        <h4>Who We Are</h4>
+                                        <p>A collective of health professionals advancing health equity through education, outreach, and advocacy across Uganda.</p>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                <div class="smg-mega-right">
+                                    <ul>
+                                        <li><a href="about-us.html">Who we are</a></li>
+                                        <li><a href="about-us.html#leadership">Our Leadership</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- What We Do (mega) -->
+                    <li>
+                        <a href="what-we-do.html">What We Do <i class="fa fa-chevron-down smg-caret"></i></a>
+                        <div class="smg-mega">
+                            <div class="smg-mega-inner">
+                                <div class="smg-mega-left">
+                                    <div>
+                                        <h4>What We Do</h4>
+                                        <p>We advance health equity by building on key, simple and impact-driven approaches to create sustainable systems and solutions. Our programmes centre equipping young people, strengthening health systems, and driving critical conversations at the intersection of society and health to improve health outcomes for all.</p>
+                                        <!-- <p>We advance health equity through social medicine education, community outreach, advocacy, and gender &amp; women's health programmes.</p> -->
+                          
+                                    </div>
+                                    
+                                </div>
+                                <div class="smg-mega-right">
+                                    <ul>
+                                        <li><a href="apply.html">Social Medicine Education</a></li>
+                                        <li><a href="community-outreach.html">Community Outreach</a></li>
+                                        <li><a href="advocacy.html">Advocacy</a></li>
+                                        <li><a href="gender-womens-health.html">Gender &amp; Women's Health</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Our Impact (mega) -->
+                    <li>
+                        <a href="our-impact.html">Our Impact <i class="fa fa-chevron-down smg-caret"></i></a>
+                        <div class="smg-mega">
+                            <div class="smg-mega-inner">
+                                <div class="smg-mega-left">
+                                    <div>
+                                        <h4>Our Impact</h4>
+                                        <p>From Amuru to Karamoja, our work is making health equity a reality for communities across Uganda.</p>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                <div class="smg-mega-right">
+                                    <ul>
+                                        <li><a href="apply.html">The Social Medicine Course</a></li>
+                                        <li><a href="care-connect-amuru.html">CareConnect Amuru</a></li>
+                                        <li><a href="our-impact.html#amuru">Campaign Against Racism</a></li>
+                                     <li style="position:relative;">
+    <a href="#" style="display:flex; align-items:center; justify-content:space-between; gap:8px;">
+        Sub Programmes <i class="fa fa-chevron-right" style="font-size:10px; opacity:0.6;"></i>
+    </a>
+    <ul style="
+        display:none;
+        position:absolute;
+        right:100%; top:0;        /* ← flipped from left:100% to right:100% */
+        background:#fff;
+        border-top:3px solid #F36F21;
+        box-shadow:0 8px 24px rgba(0,0,0,0.12);
+        min-width:220px;
+        list-style:none;
+        padding:0; margin:0;
+        z-index:1000;
+    " class="smg-sub-dropdown">
+        <li style="border-bottom:1px solid #eee;">
+            <a href="service-to-community.html" style="display:block; padding:13px 16px; font-size:14px; font-weight:600; color:#1a2a3a; text-decoration:none; transition:color 0.15s, padding-left 0.15s;"
+               onmouseover="this.style.color='#F36F21'; this.style.paddingLeft='22px';"
+               onmouseout="this.style.color='#1a2a3a'; this.style.paddingLeft='16px';">
+                Service to Community
+            </a>
+        </li>
+        <!-- <li>
+            <a href="debate-and-dialogue.html" style="display:block; padding:13px 16px; font-size:14px; font-weight:600; color:#1a2a3a; text-decoration:none; transition:color 0.15s, padding-left 0.15s;"
+               onmouseover="this.style.color='#F36F21'; this.style.paddingLeft='22px';"
+               onmouseout="this.style.color='#1a2a3a'; this.style.paddingLeft='16px';">
+                Debate &amp; Dialogue
+            </a>
+        </li> -->
+    </ul>
+</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Newsroom (mega) -->
+                    <li>
+                        <a href="news.html">Newsroom <i class="fa fa-chevron-down smg-caret"></i></a>
+                        <div class="smg-mega">
+                            <div class="smg-mega-inner">
+                                <div class="smg-mega-left">
+                                    <div>
+                                        <h4>Newsroom</h4>
+                                        <p>Stay up to date with our latest news, career opportunities, and newsletters from SocMed Global Uganda.</p>
+                                       
+                                    </div>
+                                    
+                                </div>
+                                <div class="smg-mega-right">
+                                    <ul>
+                                        <li><a href="news.html">News &amp; Updates</a></li>
+                                        <li><a href="careers.html">Careers</a></li>
+                                        <li><a href="newsletters.html">Newsletters</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Contact (no mega) -->
+                    <li>
+                        <a href="contact-us.html">Contact</a>
+                    </li>
+
+                </ul>
+
+                <!-- Right actions -->
+                <div class="smg-actions">
+                    <button class="smg-search-btn" onclick="document.querySelector('.ttm-search-overlay') && document.querySelector('.ttm-search-overlay').classList.toggle('open')" title="Search">
+                        <i class="ti ti-search"></i>
+                    </button>
+                    <a href="contact-us.html" class="smg-contact-btn">Contact Us</a>
+                    <button class="smg-mobile-toggle" id="smgToggle" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+                        <span></span><span></span><span></span>
+                    </button>
+                </div>
+
             </div>
-        </div><!-- ttm-stickable-header-w end-->
-    </div><!--ttm-header-wrap end -->
-</header><!--header end-->
+        </div>
+    </div>
+    <!-- ═══ END MAIN NAV ═══ -->
+
+</header>
 
 
         <!-- page-title -->
@@ -202,14 +306,14 @@
                     <div class="col-md-12"> 
                         <div class="title-box ttm-textcolor-white">
                             <div class="page-title-heading">
-                                <h1 class="title">About Us</h1>
+                                <h1 class="title">Who we are</h1>
                             </div><!-- /.page-title-captions -->
                             <div class="breadcrumb-wrapper">
                                 <span>
                                     <a title="Homepage" href="index.html"><i class="ti ti-home"></i></a>
                                 </span>
                                 <span class="ttm-bread-sep">&nbsp; / &nbsp;</span>
-                                <span><span>About Us</span></span>
+                                <span><span>Who we are</span></span>
                             </div>  
                         </div>
                     </div><!-- /.col-md-12 -->  
@@ -217,282 +321,260 @@
             </div><!-- /.container -->                      
         </div><!-- page-title end-->
 
-        <!-- about-section -->
+      <!-- ═══ WHO WE ARE ═══ -->
         <section class="ttm-row about3-section">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-lg-5 col-sm-12">
-                        <!-- ttm_single_image-wrapper -->
                         <div class="ttm_single_image-wrapper mb-35">
-                            <img class="img-fluid" src="images/who-we-are-2.jpg" alt="">
-                        </div><!-- ttm_single_image-wrapper end -->
+                            <img class="img-fluid" src="images/who-we-are-2.jpg" alt="Who We Are - SocMed Global Uganda">
+                        </div>
                     </div>
                     <div class="col-lg-7 col-sm-12">
                         <div class="pl-20">
-                            <!-- section title -->
                             <div class="section-title clearfix">
                                 <div class="title-header">
-                                    <h5 style="color: #4DADE1;">WELCOME</h5>
-                                    <h2 class="title" style="color: #F36F21;">WHO WE ARE</h2>
+                                    <h5 style="color:#4DADE1;">WELCOME</h5>
+                                    <h2 class="title" style="color:#F36F21;">WHO WE ARE</h2>
                                 </div>
-                            </div><!-- section title end -->
-                            <p  style="text-align: justify;"><strong>Inspired by the stories of self and that of their patients and communities, SocMed Global Uganda is a collective of like minded health professionals who live, practice, and accompany patients and communities through their illness journey across all corners of Uganda.</strong></p>
-                            <p class="mb-30" style="text-align: justify;"> Challenged by the incessant disparities in health outcomes across population groups and geographies, we strive to reimagine equitable approaches to healthcare delivery, education, and research that centers communities experiencing and living the effects of social, economic, cultural, geographical, and political disenfranchisement. .</p>
-                            
-                            <span><img src="images/logo.svg"  width="200"  alt="ttm_single_image-wrapper"></span>
+                            </div>
+                            <p style="text-align:justify;"><strong>Inspired by the stories of self and that of their patients and communities, SocMed Global Uganda is a collective of like minded health professionals who live, practice, and accompany patients and communities through their illness journey across all corners of Uganda.</strong></p>
+                            <p class="mb-30" style="text-align:justify;">Challenged by the incessant disparities in health outcomes across population groups and geographies, we strive to reimagine equitable approaches to healthcare delivery, education and research that centers communities experiencing and living the effects of social, economic, cultural, geographical, and political disenfranchisement.</p>
+
+                            <!-- Vision & Mission inline -->
+                            <div class="row" style="margin-top:20px;">
+                                <div class="col-md-6" style="margin-bottom:16px;">
+                                    <div style="border-left:4px solid #4DADE1; padding:12px 16px; background:#f0f8ff; border-radius:0 6px 6px 0;">
+                                        <p style="font-size:11px; font-weight:700; color:#4DADE1; text-transform:uppercase; letter-spacing:1.5px; margin-bottom:6px;">Our Vision</p>
+                                        <p style="margin:0; font-size:14px; color:#1e2a32; font-weight:600;">A Uganda free of health inequities</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="margin-bottom:16px;">
+                                    <div style="border-left:4px solid #F36F21; padding:12px 16px; background:#fff8f4; border-radius:0 6px 6px 0;">
+                                        <p style="font-size:11px; font-weight:700; color:#F36F21; text-transform:uppercase; letter-spacing:1.5px; margin-bottom:6px;">Our Mission</p>
+                                        <p style="margin:0; font-size:14px; color:#1e2a32; font-weight:600;">To promote health equity in Uganda, through practice, education, research, and empowerment</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <span style="display:block; margin-top:20px;"><img src="images/logo.svg" width="200" alt="SocMed Global Uganda"></span> -->
                         </div>
-                    </div>
-                </div><!-- row end-->
-            </div>
-        </section>
-        <!-- about-section end -->
-         <!--desc-only-section-->
-        <section class="ttm-row desc-only-section ttm-bgcolor-skincolor text-center clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h6>Our mission is to promote healthy equity through practice, education, research, and empowerment.</a></h6>
                     </div>
                 </div>
             </div>
         </section>
-        <!--desc-only-section end-->
 
-
-        <!--services-section-->
-        <section class="ttm-row clearfix">
+        <!-- ═══ MISSION BANNER ═══ -->
+        <section class="ttm-row desc-only-section ttm-bgcolor-skincolor text-center clearfix">
             <div class="container">
-                <!-- row -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h6>Our mission is to promote health equity in Uganda through practice, education, research, and empowerment.</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ PROGRAMMES ═══ -->
+        <!-- <section class="ttm-row clearfix">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-9 col-md-12">
-                        <!-- section-title -->
                         <div class="section-title style2 clearfix">
                             <div class="title-header">
                                 <h5>IN BRIEF</h5>
                                 <h2 class="title">OUR PROGRAMMES</h2>
                             </div>
-                            <div class="title-desc" style="text-align: justify";>We are a collective of like minded health professionals who live, practice, and accompany patients and communities through their illness journey across all corners of Uganda.</div>
-                        </div><!-- section-title end -->
+                            <div class="title-desc" style="text-align:justify;">We advance health equity by building on key, simple and impact-driven approaches to create sustainable systems and solutions. Our programmes centre equipping young people, strengthening health systems, and driving critical conversations at the intersection of society and health to improve health outcomes for all.</div>
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-12">
-                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15 mb-30 float-right" href="contact-us.html">contact us<i class="ti ti-angle-double-right"></i></a>
+                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15 mb-30 float-right" href="contact-us.html">Contact Us<i class="ti ti-angle-double-right"></i></a>
                     </div>
-                </div><!-- row end -->
-                <!-- row -->
+                </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <!-- featured-icon-box -->
                         <div class="featured-icon-box style1 ttm-bgcolor-grey mb-10 mt-5">
                             <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                 <img src="images\svgs\solid\people-arrows.svg" width="50"> 
-
+                                <img src="images/svgs/solid/people-arrows.svg" width="50" alt="">
                             </div>
                             <div class="featured-content">
-                                <div class="featured-title">
-                                    <h5>Social Medicine education</h5>
-                                </div>
+                                <div class="featured-title"><h5>Social Medicine Education</h5></div>
                                 <div class="featured-desc">
-                                    <p style="text-align: justify;">This program partners with Equal Health in delivery of the social medicine curriculum in Uganda annually through attending curriculum review meetings, curriculum development, support the application and selection process and delivery of the course in Uganda and on transnational sessions with students from Haiti and USA. </p>
+                                    <p style="text-align:justify;">Delivered in partnership with EqualHealth, this programme brings together health professional students from Uganda, Haiti, and the USA in a transnational learning experience focused on social determinants of health, equity, and leadership.</p>
                                 </div>
-                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15" href="programs.html">READ MORE<i class="ti ti-angle-double-right"></i></a>
+                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15" href="social-medicine-course.html">READ MORE<i class="ti ti-angle-double-right"></i></a>
                             </div>
-                        </div><!-- featured-icon-box end-->
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <!-- featured-icon-box -->
-                        <div class="featured-icon-box style1 ttm-bgcolor-grey mb-10 mt-5">
-                            <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                <img src="images\svgs\solid\hands-helping.svg" width="50"> 
-                            </div>
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h5>Campaign Against Racism (CAR)</h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p style="text-align: justify;">This  program is supported through a partnership with EqualHealth and the organization acts as the Uganda Campaign Against Racism Chapter and works with the Equal Health CAR program and its strategic direction is informed by the Equal Health CAR program strategic priorities. </p>
-                                </div>
-                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15" href="programs.html">READ MORE<i class="ti ti-angle-double-right"></i></a>
-                            </div>
-                        </div><!-- featured-icon-box end-->
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <!-- featured-icon-box -->
-                        <div class="featured-icon-box style1 ttm-bgcolor-grey mb-10 mt-5">
-                            <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                <img src="images\svgs\solid\heartbeat.svg" width="50"> 
-                            </div>
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h5>Outrech</h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p style="text-align: justify;">The Health System Strengthening programme is committed to increase access to quality and comprehensive health services for the populace.
-                                    Significant effort is directed towards strengthening the community health care workforce with a focus on Amuru Village Health teams that are out key partners in the delivery of the social medicine course.</p>
                         </div>
-                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15" href="programs.html">READ MORE<i class="ti ti-angle-double-right"></i></a>
-                            </div>
-                        </div><!-- featured-icon-box end-->
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <!-- featured-icon-box -->
                         <div class="featured-icon-box style1 ttm-bgcolor-grey mb-10 mt-5">
                             <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                <img src="images\svgs\solid\people-carry.svg" width="50">
-
+                                <img src="images/svgs/solid/hands-helping.svg" width="50" alt="">
                             </div>
                             <div class="featured-content">
-                                <div class="featured-title">
-                                    <h5>Service to community</h5>
-                                </div>
+                                <div class="featured-title"><h5>Campaign Against Racism (CAR)</h5></div>
                                 <div class="featured-desc">
-                                    <p style="text-align: justify;">In 2021, we partnered with EqualHealth to support the Amuru village health team (VHT) and Paimol community during the COVID-19 pandemic. Through this partnership, we provided over 5000 disposable hand gloves, 200 liters of hand sanitizer, and 700 bars of soap to aid safe practice in communities in the thick of the pandemic.</p>
+                                    <p style="text-align:justify;">As the Uganda Chapter of the EqualHealth Campaign Against Racism, we build community consciousness on the impact of racism and how it manifests and informs systems, structures, and everyday experiences in Uganda.</p>
                                 </div>
-                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15" href="programs.html">READ MORE<i class="ti ti-angle-double-right"></i></a>
+                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15" href="what-we-do.html">READ MORE<i class="ti ti-angle-double-right"></i></a>
                             </div>
-                        </div><!-- featured-icon-box end-->
+                        </div>
                     </div>
-                   
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="featured-icon-box style1 ttm-bgcolor-grey mb-10 mt-5">
+                            <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                                <img src="images/svgs/solid/heartbeat.svg" width="50" alt="">
+                            </div>
+                            <div class="featured-content">
+                                <div class="featured-title"><h5>Community Outreach</h5></div>
+                                <div class="featured-desc">
+                                    <p style="text-align:justify;">We help frontline health workers reach households more quickly, improve referrals, and expand timely care to underserved communities in Amuru — equipping VHTs with bicycles and strengthening local maintenance systems.</p>
+                                </div>
+                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15" href="community-outreach.html">READ MORE<i class="ti ti-angle-double-right"></i></a>
+                            </div>
+                        </div>
                     </div>
-                </div><!-- row end-->
-            </div>
-        </section>
-        <!--services-section end-->
- <!--desc-only-section-->
-        <section class="ttm-row desc-only-section ttm-bgcolor-skincolor text-center clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h6>SocMed Global-Uganda is aimed at achieving Health Equity for all.</a></h6>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="featured-icon-box style1 ttm-bgcolor-grey mb-10 mt-5">
+                            <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                                <img src="images/svgs/solid/people-carry.svg" width="50" alt="">
+                            </div>
+                            <div class="featured-content">
+                                <div class="featured-title"><h5>Gender &amp; Women's Health</h5></div>
+                                <div class="featured-desc">
+                                    <p style="text-align:justify;">We advocate for health systems that are responsive to the needs of women and girls, addressing the gendered dimensions of health inequity through research, education, and community engagement.</p>
+                                </div>
+                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15" href="gender-womens-health.html">READ MORE<i class="ti ti-angle-double-right"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!--desc-only-section end-->
+        </section> -->
 
+        <!-- ═══ SLOGAN BANNER ═══ -->
+        <!-- <section class="ttm-row desc-only-section ttm-bgcolor-skincolor text-center clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h6>SocMed Global Uganda — "Health Equity for All"</h6>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <br><br><br>
 
+        <!-- ═══ OUR STORY ═══ -->
         <section class="ttm-row row-top-section break-991-colum clearfix">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7 col-sm-12">
                         <div class="pt-105 res-991-pt-50 pr-25 res-991-pr-0">
-                            <!-- section title -->
                             <div class="section-title clearfix">
                                 <div class="title-header">
-                                    <h5>SOCMED GLOBAL UGANDA.</h5>
-                                    <h2 class="title">OUR STORY</h2>
+                                    <h5>SOCMED GLOBAL UGANDA</h5>
+                                    <h2 class="title">OUR STORY: FROM LEARNING TO ACTION TO IMPACT</h2>
                                 </div>
-                            </div><!-- section title end -->
-                            <p class="pb-10" style="text-align: justify;">Drawing on the principles of personal, praxis, and partnership, SocMed Global Uganda adopts a local glocal approach. We live and function in Uganda but are conscious of the complex interplay of the myriad global economic and political forces that affect the lives of our communities locally. <br>In 2018, following the annual SMC conference in the Navajo nation, New Mexico, USA a power house of emerging leaders in health equity Ainembabazi Provia, Alex Olirus Owilli, Aidah Nanvuma, Aboda Noah, Stella Namuganza, Brian Turigye, and Angella Namwatse co-founded a Uganda local chapter of the Social Medicine Consortium (SMC) network.  <br>In the same year, under the leadership of Ainembabazi Provia, we implemented a local campaign to build community consciousness on the impact of racism and how it manifests and informs systems and behaviors in Uganda. We have grown through these activities and have expanded to support the delivery of the social medicine course offered by EqualHealth.
-                            </p>
-                            <!-- row-->
+                            </div>
+
+                            <p class="pb-10" style="text-align:justify;">SocMed Global Uganda was born from a shared conviction that health cannot be separated from the social, economic, and structural realities that shape people's lives. Grounded in the principles of persona, praxis, and partnership, we take a glocal approach rooted in Uganda while remaining deeply aware of the global forces that influence health and equity within our communities.</p>
+
+                            <p class="pb-10" style="text-align:justify;">Our story is part of a broader movement in social medicine. In 2010, Dr. Michael Westerhaus and Amy Finnegan founded SocMed Incorporation during their work at St. Mary's Hospital Lacor, introducing social medicine education in Uganda and laying the foundation for a new way of understanding and practicing healthcare. In 2020, SocMed Incorporation transitioned through a merger with EqualHealth, further expanding its global reach and impact.</p>
+
+                            <p class="pb-10" style="text-align:justify;">Building on this legacy, SocMed Global Uganda emerged as an independent, locally led organization driven by alumni of the Social Medicine course. In 2018, following the annual Social Medicine Consortium conference in Navajo Nation, New Mexico, a group of emerging leaders in health equity — Provia Ainembabazi, Alex Olirus Owilli, Aidah Nanvuma, Noah Aboda, Stella Namuganza, Brian Turigye, and Angella Namwatse — came together to establish the Uganda Chapter of the Social Medicine Consortium. What began as a shared learning experience quickly evolved into a commitment to action.</p>
+
+                            <p class="pb-10" style="text-align:justify;">That same year, under the leadership of Ainembabazi Provia, we launched our first community initiative — a campaign to build awareness around racism and its influence on systems, structures, and everyday experiences in Uganda. This marked a defining moment in our journey, grounding our work in reflection and action.</p>
+
+                            <p class="pb-10" style="text-align:justify;">Today, SocMed Global Uganda operates autonomously, registered as a company limited by guarantee in 2023, continuing to uphold the philosophy and community-centered approach that shaped its origins. We are a growing network of clinicians, educators, and public health practitioners who live and work within the communities we serve — accompanying patients through their health journeys and developing solutions that respond to real, everyday challenges.</p>
+
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="featured-icon-box style8 left-icon ttm-bgcolor-grey">
                                         <div class="featured-icon">
-                                            <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor  ttm-icon_element-size-sm ttm-icon_element-style-rounded"> 
+                                            <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-sm ttm-icon_element-style-rounded">
                                                 <i class="fa fa-phone"></i>
                                             </div>
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h5>You can get in touch with us.</h5>
-                                                <h5><span class="ttm-textcolor-skincolor">+256 701 906 507</span> or <span class="ttm-textcolor-skincolor"> +256 774 917 600</span></h5>
+                                                <h5>Get in touch with us</h5>
+                                                <h5><span class="ttm-textcolor-skincolor">+256 766 533 434</span> or <span class="ttm-textcolor-skincolor">+256 741 049 377</span></h5>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div><!-- row end-->
-                        </div>
-                    </div>
-                    <div class="col-md-5 col-sm-12">
-                        
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- ttm_single_image-wrapper -->
-                                <div class="ttm_single_image-wrapper mb-35 res-991-mb-0">
-                                    <img class="img-fluid" src="images/about-us-img-1.jpg" alt="">
-                                </div><!-- ttm_single_image-wrapper end -->
                             </div>
                         </div>
                     </div>
-                </div><!-- row end -->
+
+                    <div class="col-md-5 col-sm-12">
+                        <div class="ttm_single_image-wrapper mb-35 res-991-mb-0">
+                            <img class="img-fluid" src="images/about-us-img-1.jpg" alt="SocMed Global Uganda Story">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <!--about-section end-->
-        <br> <br>
 
-         <section class="ttm-row row-top-section clearfix">
+        <br><br>
+
+        <!-- ═══ VISION MISSION SLOGAN ═══ -->
+        <section class="ttm-row row-top-section clearfix">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="mt_40 mlr-30 res-767-mt-0">
-                        <div class="row row-equal-height ttm-bgcolor-white box-shadow2">
-                            <div class="col-lg-4 col-md-4 col-sm-12">
-                                <!-- featured-icon-box -->
-                                <div class="featured-icon-box style1 top-icon text-center">
-                                    <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-md ttm-icon_element-style-square">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <div class="featured-content">
-                                        <div class="featured-title">
-                                            <h5>Our Vision</h5>
+                            <div class="row row-equal-height ttm-bgcolor-white box-shadow2">
+                                <div class="col-lg-4 col-md-4 col-sm-12">
+                                    <div class="featured-icon-box style1 top-icon text-center">
+                                        <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-md ttm-icon_element-style-square">
+                                            <i class="fa fa-eye"></i>
                                         </div>
-                                        <div class="featured-desc">
-                                            <p style="font-size: 15px;">A country free of health inequities </p>
-                                            
+                                        <div class="featured-content">
+                                            <div class="featured-title"><h5>Our Vision</h5></div>
+                                            <div class="featured-desc"><p style="font-size:15px;">A Uganda free of health inequities</p></div>
                                         </div>
                                     </div>
-                                </div><!-- featured-icon-box end-->
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12 box-shadow2">
+                                    <div class="featured-icon-box style1 top-icon text-center">
+                                        <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-md ttm-icon_element-style-square">
+                                            <i class="fa fa-bullseye"></i>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title"><h5>Our Mission</h5></div>
+                                            <div class="featured-desc"><p style="font-size:15px;">To promote health equity in Uganda, through practice, education, research, and empowerment</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12">
+                                    <div class="featured-icon-box style1 top-icon text-center">
+                                        <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-md ttm-icon_element-style-square">
+                                            <i class="fa fa-microphone"></i>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title"><h5>Our Slogan</h5></div>
+                                            <div class="featured-desc"><p style="font-size:15px;">SocMed Global Uganda — "Health Equity for All"</p></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 box-shadow2">
-                                <!-- featured-icon-box -->
-                                <div class="featured-icon-box style1 top-icon text-center">
-                                    <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-md ttm-icon_element-style-square">
-                                        <i class="fa fa-bullseye"></i>
-                                    </div>
-                                    <div class="featured-content">
-                                        <div class="featured-title">
-                                            <h5>Our Mission</h5>
-                                        </div>
-                                        <div class="featured-desc">
-                                            <p style="font-size: 15px;">To promote healthy equity through practice, education, research, and empowerment</p>
-                                        </div>
-                                    </div>
-                                </div><!-- featured-icon-box end-->
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12">
-                                <!-- featured-icon-box -->
-                                <div class="featured-icon-box style1 top-icon text-center">
-                                    <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-md ttm-icon_element-style-square">
-                                        <i class="fa fa-microphone"></i>
-                                    </div>
-                                    <div class="featured-content">
-                                        <div class="featured-title">
-                                            <h5>Our Slogan</h5>
-                                        </div>
-                                        <div class="featured-desc">
-                                            <p style="font-size: 15px;">SocMed Global Uganda "Health Equity for all"</p>
-                                        </div>
-                                    </div>
-                                </div><!-- featured-icon-box end-->
-                            </div>
-                        </div>
                         </div>
                     </div>
-                </div><!-- row end -->
+                </div>
             </div>
         </section>
-        <!-- row-vision mission -->
 
-          <br> <br>
+        <br><br>
 
-          <!--actionbox-section-->
-        <section class="ttm-row actionbox-section ttm-bgcolor-skincolor ttm-textcolor-white ttm-reset-content-center-991 clearfix">
+        <!-- ═══ CTA ═══ -->
+        <!-- <section class="ttm-row actionbox-section ttm-bgcolor-skincolor ttm-textcolor-white ttm-reset-content-center-991 clearfix">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-lg-8">
                         <div class="mt-5 text-right ttm-reset-content-center-991">
-                            <h4>Do you have any querries about any of our programs?</h4>
+                            <h4>Do you have any queries about any of our programmes?</h4>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -500,226 +582,412 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!--actionbox-section end-->
+        </section> -->
 
- <!--only-title-section-->
-        <section class="ttm-row only-title-section style2 ttm-bgcolor-darkgrey clearfix">
+        <!-- ═══ LEADERSHIP HEADER ═══ -->
+        <section class="ttm-row only-title-section style2 ttm-bgcolor-darkgrey clearfix" id="leadership">
             <div class="container">
-                <!-- row -->
-                <!-- row -->
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
-                        <!-- section title -->
                         <div class="section-title with-desc title-style-center_text clearfix">
                             <div class="title-header">
                                 <h5>SOCMED GLOBAL UGANDA</h5>
-                                <h2 class="title">LEADERSHIP TEAM</h2>
+                                <h2 class="title">OUR LEADERSHIP</h2>
                             </div>
-                            
-                        </div><!-- section title end -->
+                        </div>
                     </div>
                     <div class="col-md-2"></div>
-                </div><!-- row end -->
-            </div>
-        </section>
-        <!--only-title-section-->
-
-
-        <!--team-section-->
-        <section class="ttm-row team-section mt_70 res-991-mt_15 clearfix">
-             <div class="container">
-                <!-- row -->
-                <div class="row">
-                    <div class="wrap-team team-slide owl-carousel" data-item="3" data-nav="false" data-dots="false" data-auto="false">
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" src="images/team-member/owili.jpg" alt="image"> 
-                            </div> 
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="">Owiri Alex Orilus</a></h5>
-                                </div>
-                                <p class="category">Strategic Planning & Development</p>
-                                <div class="ttm-social-links-wrapper">
-                                    <ul class="social-icons list-inline">
-                                        <li class="social-facebook"><a class="tooltip-top" target="_blank" href="https://www.facebook.com/profile.php?id=100090264356017" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li class="social-linkedin"><a class=" tooltip-top" target="_blank" href="#" data-tooltip="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" src="images/team-member/jonathan.jpg" alt="image">
-                            </div> 
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="">Turigye Brian</a></h5>
-                                </div>
-                                <p class="category">Strategic Planning & Development</p>
-                                <div class="ttm-social-links-wrapper">
-                                    <ul class="social-icons list-inline">
-                                        <li class="social-facebook"><a class="tooltip-top" target="_blank" href="https://www.facebook.com/profile.php?id=100090264356017" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li class="social-linkedin"><a class=" tooltip-top" target="_blank" href="#" data-tooltip="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" src="images/team-member/brian.jpg" alt="image"> 
-                            </div> 
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="">Nkalubo Jonathan</a></h5>
-                                </div>
-                                <p class="category">Finance and administration</p>
-                                <div class="ttm-social-links-wrapper">
-                                    <ul class="social-icons list-inline">
-                                        <li class="social-facebook"><a class="tooltip-top" target="_blank" href="https://www.facebook.com/profile.php?id=100090264356017" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li class="social-linkedin"><a class=" tooltip-top" target="_blank" href="#" data-tooltip="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                        <!-- featured-imagebox-team -->
-                    </div>
-                </div><!-- row end -->
-            </div>
-        </section>
-        <!--team-section-->
-        <section class="ttm-row team-section mt_70 res-991-mt_15 clearfix">
-             <div class="container">
-                <!-- row -->
-                <div class="row">
-                    <div class="wrap-team team-slide owl-carousel" data-item="3" data-nav="false" data-dots="false" data-auto="false">
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" src="images/team-member/aidah.jpg" alt="image"> 
-                            </div> 
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="team-details.html">Ms. Aidah Nanvuma</a></h5>
-                                </div>
-                                <p class="category">Finance and administration</p>
-                                <div class="ttm-social-links-wrapper">
-                                    <ul class="social-icons list-inline">
-                                        <li class="social-facebook"><a class="tooltip-top" target="_blank" href="https://www.facebook.com/profile.php?id=100090264356017" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li class="social-linkedin"><a class=" tooltip-top" target="_blank" href="#" data-tooltip="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                        <!-- featured-imagebox-team -->
-                       
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" src="images/team-member/peruth.jpg" alt="image"> 
-                            </div> 
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="team-details.html">Nabirye Peruth</a></h5>
-                                </div>
-                                <p class="category">In Charge of Programs</p>
-                                <div class="ttm-social-links-wrapper">
-                                    <ul class="social-icons list-inline">
-                                        <li class="social-facebook"><a class="tooltip-top" target="_blank" href="https://www.facebook.com/profile.php?id=100090264356017" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li class="social-linkedin"><a class=" tooltip-top" target="_blank" href="#" data-tooltip="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                        <!-- featured-imagebox-team -->
-                        <!-- featured-imagebox-team -->    
-                    </div>
-                </div><!-- row end -->
+                </div>
             </div>
         </section>
 
-         <!--team-section end-->
-
-
-
-        <!--footer start-->
-    <footer class="footer widget-footer clearfix">
-        <div class="first-footer">
+        <!-- ═══ MANAGEMENT COMMITTEE ═══ -->
+        <section class="ttm-row clearfix" style="padding:50px 0 30px;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
+                        <div class="section-title clearfix mb-30">
+                            <div class="title-header">
+                                <h5 style="color:#4DADE1;">MANAGEMENT</h5>
+                                <h2 class="title" style="font-size:24px;">Management Committee</h2>
+                            </div>
                         </div>
-                  </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Peruth Nabirye -->
+                    <div class="col-lg-4 col-md-4 col-sm-6" style="margin-bottom:30px;">
+                        <div style="border:1px solid #eee; border-radius:8px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,0.06);">
+                            <div style="height:5px; background:linear-gradient(90deg,#F36F21,#4DADE1);"></div>
+                            <div style="padding:24px 20px;">
+                                <div style="width:52px; height:52px; background:linear-gradient(135deg,#F36F21,#f4a460); border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+                                    <i class="fa fa-user" style="color:#fff; font-size:22px;"></i>
+                                </div>
+                                <h5 style="margin:0 0 4px; color:#1e2a32; font-size:16px;">Peruth Nabirye</h5>
+                                <p style="color:#F36F21; font-size:13px; font-weight:600; margin-bottom:8px;">Managing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Alex Olirus Owilli -->
+                    <div class="col-lg-4 col-md-4 col-sm-6" style="margin-bottom:30px;">
+                        <div style="border:1px solid #eee; border-radius:8px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,0.06);">
+                            <div style="height:5px; background:linear-gradient(90deg,#4DADE1,#F36F21);"></div>
+                            <div style="padding:24px 20px;">
+                                <div style="width:52px; height:52px; background:linear-gradient(135deg,#4DADE1,#2e8ec4); border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+                                    <i class="fa fa-user" style="color:#fff; font-size:22px;"></i>
+                                </div>
+                                <h5 style="margin:0 0 4px; color:#1e2a32; font-size:16px;">Alex Olirus Owilli</h5>
+                                <p style="color:#4DADE1; font-size:13px; font-weight:600; margin-bottom:8px;">Programme Lead, Social Medicine Education</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Provia Ainembabazi -->
+                    <div class="col-lg-4 col-md-4 col-sm-6" style="margin-bottom:30px;">
+                        <div style="border:1px solid #eee; border-radius:8px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,0.06);">
+                            <div style="height:5px; background:linear-gradient(90deg,#F36F21,#4DADE1);"></div>
+                            <div style="padding:24px 20px;">
+                                <div style="width:52px; height:52px; background:linear-gradient(135deg,#F36F21,#f4a460); border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+                                    <i class="fa fa-user" style="color:#fff; font-size:22px;"></i>
+                                </div>
+                                <h5 style="margin:0 0 4px; color:#1e2a32; font-size:16px;">Provia Ainembabazi</h5>
+                                <p style="color:#F36F21; font-size:13px; font-weight:600; margin-bottom:8px;">Programme Lead, Community Outreach</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Brian Turigye -->
+                    <div class="col-lg-4 col-md-4 col-sm-6" style="margin-bottom:30px;">
+                        <div style="border:1px solid #eee; border-radius:8px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,0.06);">
+                            <div style="height:5px; background:linear-gradient(90deg,#4DADE1,#F36F21);"></div>
+                            <div style="padding:24px 20px;">
+                                <div style="width:52px; height:52px; background:linear-gradient(135deg,#4DADE1,#2e8ec4); border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+                                    <i class="fa fa-user" style="color:#fff; font-size:22px;"></i>
+                                </div>
+                                <h5 style="margin:0 0 4px; color:#1e2a32; font-size:16px;">Brian Turigye</h5>
+                                <p style="color:#4DADE1; font-size:13px; font-weight:600; margin-bottom:8px;">Programme Lead, Gender &amp; Women's Health</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Aidah Nanvuma -->
+                    <div class="col-lg-4 col-md-4 col-sm-6" style="margin-bottom:30px;">
+                        <div style="border:1px solid #eee; border-radius:8px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,0.06);">
+                            <div style="height:5px; background:linear-gradient(90deg,#F36F21,#4DADE1);"></div>
+                            <div style="padding:24px 20px;">
+                                <div style="width:52px; height:52px; background:linear-gradient(135deg,#F36F21,#f4a460); border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+                                    <i class="fa fa-user" style="color:#fff; font-size:22px;"></i>
+                                </div>
+                                <h5 style="margin:0 0 4px; color:#1e2a32; font-size:16px;">Aidah Nanvuma</h5>
+                                <p style="color:#F36F21; font-size:13px; font-weight:600; margin-bottom:8px;">Programme Lead, Research &amp; Women's Health</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mercy Jane Aceng -->
+                    <div class="col-lg-4 col-md-4 col-sm-6" style="margin-bottom:30px;">
+                        <div style="border:1px solid #eee; border-radius:8px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,0.06);">
+                            <div style="height:5px; background:linear-gradient(90deg,#4DADE1,#F36F21);"></div>
+                            <div style="padding:24px 20px;">
+                                <div style="width:52px; height:52px; background:linear-gradient(135deg,#4DADE1,#2e8ec4); border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+                                    <i class="fa fa-user" style="color:#fff; font-size:22px;"></i>
+                                </div>
+                                <h5 style="margin:0 0 4px; color:#1e2a32; font-size:16px;">Mercy Jane Aceng</h5>
+                                <p style="color:#4DADE1; font-size:13px; font-weight:600; margin-bottom:8px;">Operations Coordinator</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-         <div class="second-footer ttm-textcolor-white">
+        </section>
+
+        <!-- ═══ PROJECTS LEADERSHIP ═══ -->
+        <section class="ttm-row clearfix" style="padding:20px 0 40px; background:#f8f9fa;">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
-                        <div class="widget clearfix">
-                            <div class="footer-logo">
-                                <img id="footer-logo-img"  src="images/logo.svg" width="2000" alt="">
+                    <div class="col-lg-12 mb-30">
+                        <div class="section-title clearfix">
+                            <div class="title-header">
+                                <h5 style="color:#4DADE1;">PROGRAMMES</h5>
+                                <h2 class="title" style="font-size:24px;">Projects Leadership</h2>
                             </div>
-                            <p style="text-align: justify;">We are a collective of like minded health professionals who live, practice, and accompany patients and communities through their illness journey across all corners of Uganda.</p>
                         </div>
-                        <!-- <div class="widget widget_text clearfix">
-                            <h3 class="widget-title">Work Days</h3>
-                            <div class="textwidget widget-text">
-                                <div class="ttm-pricelistbox-wrapper ">
-                                    <div class="ttm-timelist-block-wrapper">
-                                        <ul class="ttm-timelist-block">
-                                            <li>Monday - Saturday <span class="service-time">09:00 - 18:00</span></li>
-                                            <li>Sunday<span class="service-time"><strong>Closed</strong></span></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
-                        <div class="widget widget_nav_menu clearfix">
-                           <h3 class="widget-title">Quick Links</h3>
-                            <ul id="menu-footer-services">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="programs.html">Our Programs</a></li>
-                                <li><a href="news.html">News Room</a></li>
-                                <li><a href="resources.html">Resources</a></li>
-                                <li><a href="support.html">Support Us</a></li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
+                </div>
+                <div class="row">
+
+                    <!-- Social Medicine Course -->
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom:30px;">
+                        <div style="background:#fff; border-radius:10px; padding:28px 24px; box-shadow:0 4px 16px rgba(0,0,0,0.07); height:100%;">
+                            <div style="display:flex; align-items:center; gap:12px; margin-bottom:20px; padding-bottom:16px; border-bottom:2px solid #F36F21;">
+                                <div style="width:40px; height:40px; background:#fff5ee; border-radius:8px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                                    <i class="fa fa-graduation-cap" style="color:#F36F21; font-size:18px;"></i>
+                                </div>
+                                <h5 style="margin:0; font-size:15px; color:#1e2a32;">Social Medicine Course</h5>
+                            </div>
+                            <ul style="list-style:none; padding:0; margin:0;">
+                                <li style="padding:8px 0; border-bottom:1px solid #f0f0f0; font-size:14px; color:#444; display:flex; align-items:center; gap:8px;"><i class="fa fa-user-o" style="color:#4DADE1; font-size:12px; width:14px;"></i> Alex Olirus Owilli</li>
+                                <li style="padding:8px 0; border-bottom:1px solid #f0f0f0; font-size:14px; color:#444; display:flex; align-items:center; gap:8px;"><i class="fa fa-user-o" style="color:#4DADE1; font-size:12px; width:14px;"></i> Brian Turigye</li>
+                                <li style="padding:8px 0; font-size:14px; color:#444; display:flex; align-items:center; gap:8px;"><i class="fa fa-user-o" style="color:#4DADE1; font-size:12px; width:14px;"></i> Ronald Kyambadde</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
-                        <div class="widget widget_text clearfix">
-                           <h3 class="widget-title">Call us today</h3>
-                           <div class="textwidget widget-text">
-                                <h3 class="ttm-textcolor-skincolor" style="font-size: 26px;">+256 701 906 507 <br> +256 774 917 600</h3>
-                                <!-- <p>We will be more than happy to hear from you.</p> -->
-                                <!-- <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-white mt-15 mb-20" href="contact-us.html">CONTACT US TODAY</a> -->
+
+                    <!-- CareConnect Amuru -->
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom:30px;">
+                        <div style="background:#fff; border-radius:10px; padding:28px 24px; box-shadow:0 4px 16px rgba(0,0,0,0.07); height:100%;">
+                            <div style="display:flex; align-items:center; gap:12px; margin-bottom:20px; padding-bottom:16px; border-bottom:2px solid #4DADE1;">
+                                <div style="width:40px; height:40px; background:#eef7fd; border-radius:8px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                                    <i class="fa fa-heartbeat" style="color:#4DADE1; font-size:18px;"></i>
+                                </div>
+                                <h5 style="margin:0; font-size:15px; color:#1e2a32;">CareConnect Amuru</h5>
+                            </div>
+                            <ul style="list-style:none; padding:0; margin:0;">
+                                <li style="padding:8px 0; border-bottom:1px solid #f0f0f0; font-size:14px; color:#444; display:flex; align-items:center; gap:8px;"><i class="fa fa-user-o" style="color:#F36F21; font-size:12px; width:14px;"></i> Provia Ainembabazi</li>
+                                <li style="padding:8px 0; border-bottom:1px solid #f0f0f0; font-size:14px; color:#444; display:flex; align-items:center; gap:8px;"><i class="fa fa-user-o" style="color:#F36F21; font-size:12px; width:14px;"></i> Tracy Tony Yu</li>
+                                <li style="padding:8px 0; font-size:14px; color:#444; display:flex; align-items:center; gap:8px;"><i class="fa fa-user-o" style="color:#F36F21; font-size:12px; width:14px;"></i> Beth Karauna Mwai</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Campaign Against Racism -->
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom:30px;">
+                        <div style="background:#fff; border-radius:10px; padding:28px 24px; box-shadow:0 4px 16px rgba(0,0,0,0.07); height:100%;">
+                            <div style="display:flex; align-items:center; gap:12px; margin-bottom:20px; padding-bottom:16px; border-bottom:2px solid #F36F21;">
+                                <div style="width:40px; height:40px; background:#fff5ee; border-radius:8px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                                    <i class="fa fa-fist-o" style="color:#F36F21; font-size:18px;"></i>
+                                </div>
+                                <h5 style="margin:0; font-size:15px; color:#1e2a32;">Campaign Against Racism</h5>
+                            </div>
+                            <ul style="list-style:none; padding:0; margin:0;">
+                                <li style="padding:8px 0; border-bottom:1px solid #f0f0f0; font-size:14px; color:#444; display:flex; align-items:center; gap:8px;"><i class="fa fa-user-o" style="color:#4DADE1; font-size:12px; width:14px;"></i> Peruth Nabirye</li>
+                                <li style="padding:8px 0; border-bottom:1px solid #f0f0f0; font-size:14px; color:#444; display:flex; align-items:center; gap:8px;"><i class="fa fa-user-o" style="color:#4DADE1; font-size:12px; width:14px;"></i> Godwill Opoka</li>
+                                <li style="padding:8px 0; font-size:14px; color:#444; display:flex; align-items:center; gap:8px;"><i class="fa fa-user-o" style="color:#4DADE1; font-size:12px; width:14px;"></i> Tinashe Garanga</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ BOARD OF DIRECTORS banner ═══ -->
+        <section class="ttm-row clearfix" style="padding:40px 0 60px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mb-30">
+                        <div class="section-title clearfix">
+                            <div class="title-header">
+                                <h5 style="color:#4DADE1;">GOVERNANCE</h5>
+                                <h2 class="title" style="font-size:24px;">Board of Directors</h2>
                             </div>
                         </div>
                     </div>
-                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
-                        <div class="widget widget_nav_menu clearfix">
-                           <h3 class="widget-title">Address Uganda</h3>
-                            <p>Kampala - Uganda
-                               <br>Email: info@socmedglobalug.org<br>
-                                <a href="https://www.socmedglobalug.org">Web: www.socmedglobalug.org</a></p>
+                </div>
+                
+                </div> -->
+            </div>
+        </section>
+
+        <!-- ═══ TEAM PHOTOS ═══ -->
+        <section class="ttm-row team-section mt_70 res-991-mt_15 clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="wrap-team team-slide owl-carousel" data-item="3" data-nav="false" data-dots="false" data-auto="false">
+                        <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
+                            <div class="featured-thumbnail">
+                                <img class="img-fluid" src="images/team-member/owili.jpg" alt="Alex Olirus Owilli">
+                            </div>
+                            <div class="featured-content featured-content-team">
+                                <div class="featured-title"><h5><a href="">Alex Olirus Owilli</a></h5></div>
+                                <!-- <p class="category">Programme Lead, Social Medicine Education</p> -->
+                                <div class="ttm-social-links-wrapper">
+                                    <ul class="social-icons list-inline">
+                                        <li class="social-facebook"><a class="tooltip-top" target="_blank" href="https://www.facebook.com/profile.php?id=100090264356017" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li class="social-linkedin"><a class="tooltip-top" target="_blank" href="#" data-tooltip="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        
+                        <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
+                            <div class="featured-thumbnail">
+                                <img class="img-fluid" src="images/team-member/brian.jpg" alt="Brian Turigye">
+                            </div>
+                            <div class="featured-content featured-content-team">
+                                <div class="featured-title"><h5><a href="">Brian Turigye</a></h5></div>
+                                <!-- <p class="category">Programme Lead, Gender &amp; Women's Health</p> -->
+                                <div class="ttm-social-links-wrapper">
+                                    <ul class="social-icons list-inline">
+                                        <li class="social-facebook"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li class="social-linkedin"><a class="tooltip-top" target="_blank" href="#" data-tooltip="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
+                            <div class="featured-thumbnail">
+                                <img class="img-fluid" src="images/team-member/jonathan.jpg" alt="Jonathan Nkalubo">
+                            </div>
+                            <div class="featured-content featured-content-team">
+                                <div class="featured-title"><h5><a href="">Jonathan Nkalubo</a></h5></div>
+                                <!-- <p class="category">Board of Directors</p> -->
+                                <div class="ttm-social-links-wrapper">
+                                    <ul class="social-icons list-inline">
+                                        <li class="social-facebook"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li class="social-linkedin"><a class="tooltip-top" target="_blank" href="#" data-tooltip="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ttm-row team-section res-991-mt_15 clearfix" style="padding-top:0;">
+            <div class="container">
+                <div class="row">
+                    <div class="wrap-team team-slide owl-carousel" data-item="3" data-nav="false" data-dots="false" data-auto="false">
+                        <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
+                            <div class="featured-thumbnail">
+                                <img class="img-fluid" src="images/team-member/provia.jpg" alt="Aidah Nanvuma">
+                            </div>
+                            <div class="featured-content featured-content-team">
+                                <div class="featured-title"><h5><a href="">Provia Ainembabazi</a></h5></div>
+                                <!-- <p class="category">Programme Lead, Research &amp; Women's Health</p> -->
+                                <div class="ttm-social-links-wrapper">
+                                    <ul class="social-icons list-inline">
+                                        <li class="social-facebook"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li class="social-linkedin"><a class="tooltip-top" target="_blank" href="#" data-tooltip="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
+                            <div class="featured-thumbnail">
+                                <img class="img-fluid" src="images/team-member/peruth.jpg" alt="Peruth Nabirye">
+                            </div>
+                            <div class="featured-content featured-content-team">
+                                <div class="featured-title"><h5><a href="">Peruth Nabirye</a></h5></div>
+                                <!-- <p class="category">Managing Director</p> -->
+                                <div class="ttm-social-links-wrapper">
+                                    <ul class="social-icons list-inline">
+                                        <li class="social-facebook"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li class="social-linkedin"><a class="tooltip-top" target="_blank" href="#" data-tooltip="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--footer start-->
+            <footer class="footer widget-footer clearfix">
+                <div class="first-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-footer ttm-textcolor-white">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Logo + About -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                                <div class="widget clearfix">
+                                    <div class="footer-logo">
+                                        <img id="footer-logo-img" src="images/logo.svg" width="2000" alt="">
+                                    </div>
+                                    <p style="text-align: justify; word-spacing: -2px;">We are a collective of like minded health professionals who live, practice, and accompany patients and communities through their illness journey across all corners of Uganda.</p>
+                                </div>
+                            </div>
+        
+                            <!-- Work With Us -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                                <div class="widget widget_nav_menu clearfix">
+                                <h3 class="widget-title">Work With Us</h3>
+                                    <ul id="menu-footer-work">
+                                        <li><a href="about-us.html">About Us</a></li>
+                                        <li><a href="what-we-do.html">Our Programs</a></li>
+                                        <li><a href="impact.html">Our Impact</a></li>
+                                        <li><a href="about-us.html#leadership">Our Leadership</a></li>
+                                        <li><a href="careers.html">Careers</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+        
+                            <!-- Associated Links -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                                <div class="widget widget_nav_menu clearfix">
+                                <h3 class="widget-title">Associated Links</h3>
+                                    <ul id="menu-footer-links">
+                                        <li><a href="https://equalhealth.org" target="_blank" rel="noopener">EqualHealth</a></li>
+                                        <li><a href="https://www.merck-family-foundation.com/" target="_blank" rel="noopener">Merck Family Foundation</a></li>
+                                        <li><a href="https://amuruvht.com" target="_blank" rel="noopener">Amuru VHTs Association</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+        
+                            <!-- Contact Us -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                                <div class="widget widget_text clearfix">
+                                <h3 class="widget-title">Contact Us</h3>
+                                <div class="textwidget widget-text">
+                                        <p>Kampala, Uganda</p>
+                                        <p>Email: <a href="mailto:info@socmedglobalug.org">info@socmedglobalug.org</a></p>
+                                        <h3 class="ttm-textcolor-skincolor" style="font-size: 20px;">+256 766 533 434<br>+256 741 049 377</h3>
+                                        <div class="ttm-social-links-wrapper list-inline" style="margin-top: 10px;">
+                                            <ul class="social-icons">
+        <li>
+                    <a href="https://www.facebook.com/share/1MBparZQs6/" target="_blank">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://x.com/socmedglobalug?t=ws6DjoJaVPUh56FUYyVAcw&s=08" target="_blank">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/socmedglobal?utm_source=qr&igsh=ODB4eXFrZXB5NTA=" target="_blank">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/company/socmed-global-uganda" target="_blank">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/@SocMedGlobalUgandaLtd" target="_blank">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://wa.me/256766533434" target="_blank">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                </li>
+
+  
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+ 
                 </div>
             </div>
         </div>
@@ -730,34 +998,64 @@
                         <span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> .&nbspSocMed Global Uganda | Powered by <a href="https://www.grayhost.dev"> Grayhost Innovations. </a></span>
                     </div>
                     <div class="col-md-4 ttm-footer2-right">
-                       <div class="social-icons">
-                            <ul class="list-inline">
+                      <div class="social-icons">
+    <ul class="list-inline">
 
-                                <li><a href="https://www.facebook.com/profile.php?id=100090264356017"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
+        <li>
+            <a href="https://www.facebook.com/share/1MBparZQs6/" target="_blank">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://x.com/socmedglobalug?t=ws6DjoJaVPUh56FUYyVAcw&s=08" target="_blank">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.instagram.com/socmedglobal?utm_source=qr&igsh=ODB4eXFrZXB5NTA=" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.linkedin.com/company/socmed-global-uganda" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.youtube.com/@SocMedGlobalUgandaLtd" target="_blank">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://wa.me/256766533434" target="_blank">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            </a>
+        </li>
+
+    </ul>
+</div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
+ 
     <!--back-to-top start-->
     <a id="totop" href="#top">
         <i class="fa fa-angle-up"></i>
     </a>
     <!--back-to-top end-->
-
-    
-
+ 
 </div><!-- page end -->
-
-
+ 
+ 
     <!-- Javascript -->
-
+ 
     <script src="js/jquery.min.js"></script>
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -769,14 +1067,13 @@
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/numinate.min6959.js?ver=4.9.3"></script>
     <script src="js/main.js"></script>
-
+ 
     <!-- Revolution Slider -->
     <script src="revolution/js/jquery.themepunch.tools.min.js"></script>
     <script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
     <script src="revolution/js/slider.js"></script>
-
-    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->    
-
+ 
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
     <script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
@@ -786,12 +1083,57 @@
     <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 
+<script>
+    /* ── Click to open/close mega ── */
+    document.addEventListener('DOMContentLoaded', function () {
+
+        var items = document.querySelectorAll('.smg-menu > li');
+
+        items.forEach(function (li) {
+            var link = li.querySelector(':scope > a');
+            var mega = li.querySelector('.smg-mega');
+
+            if (!link) return;
+
+            link.addEventListener('click', function (e) {
+                if (!mega) return; // no submenu — follow the link normally
+
+                e.preventDefault();
+                var wasOpen = li.classList.contains('open');
+
+                // close all open megas
+                items.forEach(function (el) { el.classList.remove('open'); });
+
+                // toggle this one
+                if (!wasOpen) li.classList.add('open');
+            });
+        });
+
+        /* Click anywhere outside to close */
+        document.addEventListener('click', function (e) {
+            if (!e.target.closest('.smg-menu')) {
+                items.forEach(function (el) { el.classList.remove('open'); });
+            }
+        });
+
+    });
+
+    /* ── Mobile menu toggle ── */
+    function toggleMobileMenu() {
+        var menu   = document.getElementById('smgMenu');
+        var toggle = document.getElementById('smgToggle');
+        menu.classList.toggle('open');
+        toggle.classList.toggle('active');
+    }
+</script>
+
+ 
     <!-- Javascript end-->
     <!-- GetButton.io widget -->
-<script type="text/javascript">
-    (function () {
+    <script type="text/javascript">
+      (function () {
         var options = {
-            whatsapp: "+256701906507", // WhatsApp number
+            whatsapp: "+256766533434", // WhatsApp number
             call_to_action: "Send us a message", // Call to action
             button_color: "#FF6550", // Color of button
             position: "left", // Position may be 'right' or 'left'
@@ -804,8 +1146,8 @@
     })();
 </script>
 <!-- /GetButton.io widget -->
-
+ 
 </body>
-
-<!-- home-440:16-->
+ 
 </html>
+ 
