@@ -1,81 +1,15 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
-<!-- home-439:07-->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-<!-- ═══ PRIMARY SEO ═══ -->
-<title>SocMed Global Uganda | Health Equity, Social Medicine & Community Health</title>
-<meta name="description" content="SocMed Global Uganda is a collective of health professionals advancing health equity through social medicine education, community outreach, and the Campaign Against Racism across Uganda." />
-<meta name="keywords" content="SocMed Global Uganda, health equity Uganda, social medicine Uganda, campaign against racism Uganda, NGO Uganda, community health Uganda, health inequities, EqualHealth Uganda, social medicine education, health professionals Uganda" />
-<meta name="author" content="SocMed Global Uganda" />
+<title>Newsletters | SocMed Global Uganda</title>
+<meta name="description" content="Browse and download newsletters from SocMed Global Uganda — stories, updates, and impact from the field." />
 <meta name="robots" content="index, follow" />
-<meta name="language" content="English" />
-<link rel="canonical" href="https://www.socmedglobalug.org/" />
-
-<!-- ═══ OPEN GRAPH (Facebook, LinkedIn, WhatsApp previews) ═══ -->
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="https://www.socmedglobalug.org/" />
-<meta property="og:title" content="SocMed Global Uganda | Health Equity for All" />
-<meta property="og:description" content="A collective of health professionals who live, practice, and accompany patients and communities through their illness journey across all corners of Uganda — advancing health equity through education, outreach, and advocacy." />
-<meta property="og:image" content="https://www.socmedglobalug.org/images/og-preview.jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="SocMed Global Uganda — Health Equity for All" />
-<meta property="og:site_name" content="SocMed Global Uganda" />
-<meta property="og:locale" content="en_UG" />
-
-<!-- ═══ TWITTER / X CARD ═══ -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@SocMedGlobalUG" />
-<meta name="twitter:title" content="SocMed Global Uganda | Health Equity for All" />
-<meta name="twitter:description" content="Advancing health equity through social medicine education, community outreach, and the Campaign Against Racism across Uganda." />
-<meta name="twitter:image" content="https://www.socmedglobalug.org/images/og-preview.jpg" />
-
-<!-- ═══ GEO / LOCAL SEO ═══ -->
-<meta name="geo.region" content="UG" />
-<meta name="geo.placename" content="Kampala, Uganda" />
-<meta name="geo.position" content="0.3476;32.5825" />
-<meta name="ICBM" content="0.3476, 32.5825" />
-
-<!-- ═══ STRUCTURED DATA — Organization (JSON-LD) ═══ -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NGO",
-  "name": "SocMed Global Uganda",
-  "alternateName": "SocMed Global UG",
-  "url": "https://www.socmedglobalug.org",
-  "logo": "https://www.socmedglobalug.org/images/logo.svg",
-  "description": "A collective of health professionals advancing health equity through social medicine education, community outreach, and the Campaign Against Racism across Uganda.",
-  "foundingDate": "2018",
-  "areaServed": "Uganda",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Kampala",
-    "addressCountry": "UG"
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+256-766-533-434",
-    "contactType": "customer service",
-    "email": "info@socmedglobalug.org"
-  },
-  "sameAs": [
-    "https://www.facebook.com/profile.php?id=100090264356017"
-  ]
-}
-</script>
-
-<!-- ═══ FAVICON ═══ -->
+<link rel="canonical" href="https://www.socmedglobalug.org/newsletters.html" />
 <link rel="shortcut icon" href="images/favicon.png" />
 <link rel="icon" type="image/png" href="images/favicon.png" />
-
-<!-- ═══ STYLESHEETS ═══ -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="css/animate.css"/>
 <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
@@ -92,319 +26,382 @@
 <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kaushan+Script&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+<style>
+    .nl-card {
+        background: #fff;
+        border: 1px solid #e4e4e4;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+        transition: transform 0.2s, box-shadow 0.2s;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nl-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 14px 36px rgba(0,0,0,0.12);
+    }
+    .nl-card-thumb {
+        background: #f8f9fa;
+        padding: 36px 20px;
+        text-align: center;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        cursor: pointer;
+    }
+    .nl-card-thumb .nl-icon {
+        width: 70px; height: 86px;
+        border-radius: 6px;
+        display: inline-flex; align-items: center; justify-content: center;
+        font-size: 34px; color: #fff;
+    }
+    .nl-card-thumb .nl-icon.orange { background: linear-gradient(135deg,#F36F21,#f4a460); box-shadow: 0 4px 14px rgba(243,111,33,0.3); }
+    .nl-card-thumb .nl-icon.blue   { background: linear-gradient(135deg,#4DADE1,#2e8ec4); box-shadow: 0 4px 14px rgba(77,173,225,0.3); }
+    .nl-card-thumb .nl-year {
+        position: absolute; top: 12px; right: 14px;
+        font-size: 10px; font-weight: 700;
+        padding: 3px 10px; border-radius: 20px;
+        text-transform: uppercase; letter-spacing: 1px; color: #fff;
+    }
+    .nl-card-thumb .nl-year.orange { background: #F36F21; }
+    .nl-card-thumb .nl-year.blue   { background: #4DADE1; }
+    .nl-card-body { padding: 22px 22px 20px; flex: 1; display: flex; flex-direction: column; }
+    .nl-card-body .nl-tag {
+        font-size: 11px; color: #4DADE1; font-weight: 700;
+        text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 7px;
+    }
+    .nl-card-body h5 {
+        font-size: 15px; font-weight: 700; color: #1e2a32;
+        margin-bottom: 8px; line-height: 1.45;
+    }
+    .nl-card-body p { font-size: 13px; color: #888; margin-bottom: 18px; flex: 1; }
+    .nl-card-actions { display: flex; gap: 10px; }
+    .nl-card-actions a { flex: 1; text-align: center; font-size: 12px; }
+
+    /* ── PDF Modal ── */
+    #pdfModal {
+        display: none;
+        position: fixed; top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: rgba(0,0,0,0.78);
+        z-index: 99999;
+        align-items: center; justify-content: center;
+    }
+    #pdfModal.open { display: flex; }
+    .pdf-modal-box {
+        background: #fff;
+        border-radius: 12px;
+        width: 92%; max-width: 960px;
+        height: 88vh;
+        display: flex; flex-direction: column;
+        overflow: hidden;
+        animation: modalIn 0.2s ease;
+    }
+    @keyframes modalIn {
+        from { opacity:0; transform:scale(0.96); }
+        to   { opacity:1; transform:scale(1); }
+    }
+    .pdf-modal-header {
+        display: flex; align-items: center;
+        justify-content: space-between;
+        padding: 14px 22px;
+        border-bottom: 1px solid #eee;
+        flex-shrink: 0;
+        background: #fff;
+    }
+    .pdf-modal-header .modal-title {
+        display: flex; align-items: center; gap: 10px;
+        font-weight: 700; color: #1e2a32; font-size: 15px;
+    }
+    .pdf-modal-header .modal-title i { color: #F36F21; font-size: 20px; }
+    .pdf-modal-close {
+        background: none; border: none;
+        font-size: 24px; cursor: pointer;
+        color: #aaa; line-height: 1; padding: 0 4px;
+        transition: color 0.15s;
+    }
+    .pdf-modal-close:hover { color: #F36F21; }
+    #pdfFrame { flex: 1; border: none; width: 100%; }
+
+    /* Placeholder card */
+    .nl-placeholder {
+        border: 2px dashed #dde;
+        border-radius: 10px;
+        padding: 50px 24px;
+        text-align: center;
+        display: flex; flex-direction: column;
+        align-items: center; justify-content: center;
+        min-height: 310px;
+        height: 100%;
+    }
+    .nl-placeholder .nl-plus {
+        width: 56px; height: 56px;
+        background: #eef7fd; border-radius: 50%;
+        display: flex; align-items: center; justify-content: center;
+        font-size: 22px; color: #4DADE1;
+        margin-bottom: 14px;
+    }
+</style>
 </head>
 
 <body>
+<div class="page">
 
-    <!--page start-->
-    <div class="page">
+    <div id="preloader"><div id="status">&nbsp;</div></div>
 
-        <!-- preloader start -->
-        <div id="preloader">
-          <div id="status">&nbsp;</div>
+    <!-- ═══ HEADER ═══ -->
+    <header id="masthead" class="header ttm-header-style-classic">
+        <div style="background:linear-gradient(135deg,#F36F21 0%,#F36F21 100%);color:white;padding:10px 0;border-bottom:3px solid #4DADE1;">
+            <div class="container">
+                <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:15px;">
+                    <div style="display:flex;align-items:center;gap:12px;">
+                        <i class="fa fa-bullhorn" style="font-size:1.2rem;color:#fff;"></i>
+                        <span style="font-weight:600;font-size:0.9rem;">CALL FOR APPLICATIONS 2026 — Global Health in Local Contexts</span>
+                    </div>
+                    <a href="apply.html" style="background-color:#fff;color:#F36F21;padding:7px 24px;border-radius:40px;text-decoration:none;font-weight:700;font-size:0.85rem;display:inline-flex;align-items:center;gap:8px;">Apply Now →</a>
+                </div>
+            </div>
         </div>
-        <!-- preloader end -->
+        <div class="smg-nav-wrap">
+            <div class="container">
+                <div class="smg-nav-inner">
+                    <div class="smg-logo"><a href="index.html"><img src="images/logo.svg" alt="SocMed Global Uganda"></a></div>
+                    <ul class="smg-menu" id="smgMenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="about-us.html">About us <i class="fa fa-chevron-down smg-caret"></i></a>
+                            <div class="smg-mega"><div class="smg-mega-inner">
+                                <div class="smg-mega-left"><div><h4>Who We Are</h4><p>A collective of health professionals advancing health equity through education, outreach, and advocacy across Uganda.</p></div></div>
+                                <div class="smg-mega-right"><ul><li><a href="about-us.html">Who we are</a></li><li><a href="about-us.html#leadership">Our Leadership</a></li></ul></div>
+                            </div></div>
+                        </li>
+                        <li>
+                            <a href="what-we-do.html">What We Do <i class="fa fa-chevron-down smg-caret"></i></a>
+                            <div class="smg-mega"><div class="smg-mega-inner">
+                                <div class="smg-mega-left"><div><h4>What We Do</h4><p>We advance health equity by building on key, simple and impact-driven approaches to create sustainable systems and solutions.</p></div></div>
+                                <div class="smg-mega-right"><ul>
+                                    <li><a href="apply.html">Social Medicine Education</a></li>
+                                    <li><a href="community-outreach.html">Community Outreach</a></li>
+                                    <li><a href="advocacy.html">Advocacy</a></li>
+                                    <li><a href="gender-womens-health.html">Gender &amp; Women's Health</a></li>
+                                </ul></div>
+                            </div></div>
+                        </li>
+                        <li>
+                            <a href="our-impact.html">Our Impact <i class="fa fa-chevron-down smg-caret"></i></a>
+                            <div class="smg-mega"><div class="smg-mega-inner">
+                                <div class="smg-mega-left"><div><h4>Our Impact</h4><p>From Amuru to Karamoja, our work is making health equity a reality for communities across Uganda.</p></div></div>
+                                <div class="smg-mega-right"><ul>
+                                    <li><a href="apply.html">The Social Medicine Course</a></li>
+                                    <li><a href="care-connect-amuru.html">CareConnect Amuru</a></li>
+                                    <li><a href="our-impact.html#amuru">Campaign Against Racism</a></li>
+                                    <li style="position:relative;">
+                                        <a href="#" style="display:flex;align-items:center;justify-content:space-between;gap:8px;">Sub Programmes <i class="fa fa-chevron-right" style="font-size:10px;opacity:0.6;"></i></a>
+                                        <ul style="display:none;position:absolute;right:100%;top:0;background:#fff;border-top:3px solid #F36F21;box-shadow:0 8px 24px rgba(0,0,0,0.12);min-width:220px;list-style:none;padding:0;margin:0;z-index:1000;" class="smg-sub-dropdown">
+                                            <li style="border-bottom:1px solid #eee;"><a href="service-to-community.html" style="display:block;padding:13px 16px;font-size:14px;font-weight:600;color:#1a2a3a;text-decoration:none;" onmouseover="this.style.color='#F36F21';this.style.paddingLeft='22px';" onmouseout="this.style.color='#1a2a3a';this.style.paddingLeft='16px';">Service to Community</a></li>
+                                            <li><a href="debate-and-dialogue.html" style="display:block;padding:13px 16px;font-size:14px;font-weight:600;color:#1a2a3a;text-decoration:none;" onmouseover="this.style.color='#F36F21';this.style.paddingLeft='22px';" onmouseout="this.style.color='#1a2a3a';this.style.paddingLeft='16px';">Debate &amp; Dialogue</a></li>
+                                        </ul>
+                                    </li>
+                                </ul></div>
+                            </div></div>
+                        </li>
+                        <li>
+                            <a href="news.html">Newsroom <i class="fa fa-chevron-down smg-caret"></i></a>
+                            <div class="smg-mega"><div class="smg-mega-inner">
+                                <div class="smg-mega-left"><div><h4>Newsroom</h4><p>Stay up to date with our latest news, career opportunities, and newsletters from SocMed Global Uganda.</p></div></div>
+                                <div class="smg-mega-right"><ul>
+                                    <li><a href="news.html">News &amp; Updates</a></li>
+                                    <li><a href="careers.html">Careers</a></li>
+                                    <li><a href="newsletters.html">Newsletters</a></li>
+                                </ul></div>
+                            </div></div>
+                        </li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                    <div class="smg-actions">
+                        <button class="smg-search-btn" title="Search"><i class="ti ti-search"></i></button>
+                        <a href="contact-us.html" class="smg-contact-btn">Contact Us</a>
+                        <button class="smg-mobile-toggle" id="smgToggle" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+                            <span></span><span></span><span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-<header id="masthead" class="header ttm-header-style-classic">
-
-    <!-- ═══ CALL FOR APPLICATIONS BANNER ═══ -->
-    <div style="background:linear-gradient(135deg, #F36F21 0%, #F36F21 100%); color:white; padding:10px 0; border-bottom:3px solid #4DADE1;">
+    <!-- ═══ PAGE TITLE ═══ -->
+    <div class="ttm-page-title-row">
+        <div class="ttm-page-title-row-bg-layer ttm-bg-layer"></div>
         <div class="container">
-            <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:15px;">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title-box ttm-textcolor-white">
+                        <div class="page-title-heading"><h1 class="title">Newsletters</h1></div>
+                        <div class="breadcrumb-wrapper">
+                            <span><a title="Homepage" href="index.html"><i class="ti ti-home"></i></a></span>
+                            <span class="ttm-bread-sep">&nbsp; / &nbsp;</span>
+                            <span><span>Newsroom &nbsp;/&nbsp; Newsletters</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ PAGE CONTENT ═══ -->
+    <div class="site-main ttm-bgcolor-white clearfix">
+
+        <!-- Intro -->
+        <section class="ttm-row about3-section clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-10">
+                        <div class="section-title clearfix">
+                            <div class="title-header">
+                                <h5 style="color:#4DADE1;">STAY INFORMED</h5>
+                                <h2 class="title" style="color:#F36F21;">Our Newsletters</h2>
+                            </div>
+                        </div>
+                        <p style="font-size:15px; line-height:1.85; color:#555;">Stay up to date with our work, stories, and impact from the field. Browse each newsletter online or download a copy to read at your convenience.</p>
+                    </div>
+                </div>
+
+                <!-- ── Newsletter Card Grid ── -->
+                <div class="row" style="margin-top:40px;">
+
+                    <!-- ── CARD: Add one block like this per newsletter.
+                         Steps to add a new newsletter:
+                         1. Upload the PDF to your /uploads/ folder
+                         2. Copy one of these col blocks
+                         3. Update: href in View & Download buttons, the title, description, and year badge
+                    ── -->
+
+                    <!-- Card 1 — 2025 Annual -->
+                    <div class="col-lg-4 col-md-6 col-sm-12" style="margin-bottom:30px;">
+                        <div class="nl-card">
+                            <div style="height:5px; background:linear-gradient(90deg,#F36F21,#4DADE1);"></div>
+                            <div class="nl-card-thumb" onclick="openPdfModal('uploads/newsletter-2024.pdf','SocMed Global Uganda — 2024 Annual Newsletter')">
+                                <span class="nl-year orange">2025</span>
+                                <div class="nl-icon orange"><i class="fa fa-file-pdf-o"></i></div>
+                                <p style="font-size:12px;color:#aaa;margin:12px 0 0;"><i class="fa fa-eye" style="margin-right:4px;"></i>Click to preview</p>
+                            </div>
+                            <div class="nl-card-body">
+                                <p class="nl-tag">Annual Newsletter</p>
+                                <h5>SocMed Global Uganda — 2025 Annual Newsletter</h5>
+                                <p>A year in review — our programmes, impact stories, and the communities we serve across Uganda.</p>
+                                <div class="nl-card-actions">
+                                    <a href="/uploads/2025_NEWSLETTER.pdf" onclick="openPdfModal('uploads/2025_NEWSLETTER.pdf','SocMed Global Uganda — 2025 Annual Newsletter'); return false;"
+                                       class="ttm-btn ttm-btn-size-sm ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor">
+                                        <i class="fa fa-eye" style="margin-right:5px;"></i>View
+                                    </a>
+                                    <a href="uploads/2025_NEWSLETTER.pdf" download
+                                       class="ttm-btn ttm-btn-size-sm ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-black">
+                                        <i class="fa fa-download" style="margin-right:5px;"></i>Download
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- row end -->
+            </div>
+        </section>
+
+        <!-- Subscribe CTA -->
+        <section class="ttm-row actionbox-section ttm-bgcolor-skincolor ttm-textcolor-white clearfix">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="pt-15 pb-15">
+                            <h4 style="margin-bottom:8px;">Never Miss an Update</h4>
+                            <p class="ttm-textcolor-white" style="opacity:0.9; font-size:15px; margin:0;">Want to receive our newsletters directly? Get in touch and we'll add you to our mailing list.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-white" href="contact-us.html" style="color:#F36F21; font-weight:700;">Subscribe &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- ═══ PDF VIEWER MODAL ═══ -->
+    <div id="pdfModal">
+        <div class="pdf-modal-box">
+            <div class="pdf-modal-header">
+                <div class="modal-title">
+                    <i class="fa fa-file-pdf-o"></i>
+                    <span id="modalTitle">Newsletter</span>
+                </div>
                 <div style="display:flex; align-items:center; gap:12px;">
-                    <i class="fa fa-bullhorn" style="font-size:1.2rem; color:#fff;"></i>
-                    <span style="font-weight:600; font-size:0.9rem;">CALL FOR APPLICATIONS 2026 — Global Health in Local Contexts</span>
-                </div>
-                <a href="apply.html" style="background-color:#fff; color:#F36F21; padding:7px 24px; border-radius:40px; text-decoration:none; font-weight:700; font-size:0.85rem; display:inline-flex; align-items:center; gap:8px;">
-                    Apply Now →
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- ═══ END BANNER ═══ -->
-
-    <!-- ═══ MAIN NAV ═══ -->
-    <div class="smg-nav-wrap">
-        <div class="container">
-            <div class="smg-nav-inner">
-
-                <!-- Logo -->
-                <div class="smg-logo">
-                    <a href="index.html">
-                        <img src="images/logo.svg" alt="SocMed Global Uganda">
+                    <a id="modalDownload" href="#" download
+                       class="ttm-btn ttm-btn-size-sm ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor"
+                       style="font-size:12px;">
+                        <i class="fa fa-download" style="margin-right:5px;"></i>Download
                     </a>
+                    <button class="pdf-modal-close" onclick="closePdfModal()" title="Close">&times;</button>
                 </div>
-
-                <!-- Nav -->
-                <ul class="smg-menu" id="smgMenu">
-
-                    <!-- Home -->
-                    <li class="active">
-                        <a href="index.html">Home</a>
-                    </li>
-
-                    <!-- About Us (mega) -->
-                    <li>
-                        <a href="about-us.html">About us <i class="fa fa-chevron-down smg-caret"></i></a>
-                        <div class="smg-mega">
-                            <div class="smg-mega-inner">
-                                <div class="smg-mega-left">
-                                    <div>
-                                        <h4>Who We Are</h4>
-                                        <p>A collective of health professionals advancing health equity through education, outreach, and advocacy across Uganda.</p>
-                                        
-                                    </div>
-                                    
-                                </div>
-                                <div class="smg-mega-right">
-                                    <ul>
-                                        <li><a href="about-us.html">Who we are</a></li>
-                                        <li><a href="about-us.html#leadership">Our Leadership</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <!-- What We Do (mega) -->
-                    <li>
-                        <a href="what-we-do.html">What We Do <i class="fa fa-chevron-down smg-caret"></i></a>
-                        <div class="smg-mega">
-                            <div class="smg-mega-inner">
-                                <div class="smg-mega-left">
-                                    <div>
-                                        <h4>What We Do</h4>
-                                        <p>We advance health equity by building on key, simple and impact-driven approaches to create sustainable systems and solutions. Our programmes centre equipping young people, strengthening health systems, and driving critical conversations at the intersection of society and health to improve health outcomes for all.</p>
-                                        <!-- <p>We advance health equity through social medicine education, community outreach, advocacy, and gender &amp; women's health programmes.</p> -->
-                          
-                                    </div>
-                                    
-                                </div>
-                                <div class="smg-mega-right">
-                                    <ul>
-                                        <li><a href="apply.html">Social Medicine Education</a></li>
-                                        <li><a href="community-outreach.html">Community Outreach</a></li>
-                                        <li><a href="advocacy.html">Advocacy</a></li>
-                                        <li><a href="gender-womens-health.html">Gender &amp; Women's Health</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <!-- Our Impact (mega) -->
-                    <li>
-                        <a href="our-impact.html">Our Impact <i class="fa fa-chevron-down smg-caret"></i></a>
-                        <div class="smg-mega">
-                            <div class="smg-mega-inner">
-                                <div class="smg-mega-left">
-                                    <div>
-                                        <h4>Our Impact</h4>
-                                        <p>From Amuru to Karamoja, our work is making health equity a reality for communities across Uganda.</p>
-                                        
-                                    </div>
-                                    
-                                </div>
-                                <div class="smg-mega-right">
-                                    <ul>
-                                        <li><a href="apply.html">The Social Medicine Course</a></li>
-                                        <li><a href="care-connect-amuru.html">CareConnect Amuru</a></li>
-                                        <li><a href="our-impact.html#amuru">Campaign Against Racism</a></li>
-                                     <li style="position:relative;">
-    <a href="#" style="display:flex; align-items:center; justify-content:space-between; gap:8px;">
-        Sub Programmes <i class="fa fa-chevron-right" style="font-size:10px; opacity:0.6;"></i>
-    </a>
-    <ul style="
-        display:none;
-        position:absolute;
-        right:100%; top:0;        /* ← flipped from left:100% to right:100% */
-        background:#fff;
-        border-top:3px solid #F36F21;
-        box-shadow:0 8px 24px rgba(0,0,0,0.12);
-        min-width:220px;
-        list-style:none;
-        padding:0; margin:0;
-        z-index:1000;
-    " class="smg-sub-dropdown">
-        <li style="border-bottom:1px solid #eee;">
-            <a href="service-to-community.html" style="display:block; padding:13px 16px; font-size:14px; font-weight:600; color:#1a2a3a; text-decoration:none; transition:color 0.15s, padding-left 0.15s;"
-               onmouseover="this.style.color='#F36F21'; this.style.paddingLeft='22px';"
-               onmouseout="this.style.color='#1a2a3a'; this.style.paddingLeft='16px';">
-                Service to Community
-            </a>
-        </li>
-        <!-- <li>
-            <a href="debate-and-dialogue.html" style="display:block; padding:13px 16px; font-size:14px; font-weight:600; color:#1a2a3a; text-decoration:none; transition:color 0.15s, padding-left 0.15s;"
-               onmouseover="this.style.color='#F36F21'; this.style.paddingLeft='22px';"
-               onmouseout="this.style.color='#1a2a3a'; this.style.paddingLeft='16px';">
-                Debate &amp; Dialogue
-            </a>
-        </li> -->
-    </ul>
-</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <!-- Newsroom (mega) -->
-                    <li>
-                        <a href="news.html">Newsroom <i class="fa fa-chevron-down smg-caret"></i></a>
-                        <div class="smg-mega">
-                            <div class="smg-mega-inner">
-                                <div class="smg-mega-left">
-                                    <div>
-                                        <h4>Newsroom</h4>
-                                        <p>Stay up to date with our latest news, career opportunities, and newsletters from SocMed Global Uganda.</p>
-                                       
-                                    </div>
-                                    
-                                </div>
-                                <div class="smg-mega-right">
-                                    <ul>
-                                        <li><a href="news.html">News &amp; Updates</a></li>
-                                        <li><a href="careers.html">Careers</a></li>
-                                        <li><a href="newsletters.html">Newsletters</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <!-- Contact (no mega) -->
-                    <li>
-                        <a href="contact-us.html">Contact</a>
-                    </li>
-
-                </ul>
-
-                <!-- Right actions -->
-                <div class="smg-actions">
-                    <button class="smg-search-btn" onclick="document.querySelector('.ttm-search-overlay') && document.querySelector('.ttm-search-overlay').classList.toggle('open')" title="Search">
-                        <i class="ti ti-search"></i>
-                    </button>
-                    <a href="contact-us.html" class="smg-contact-btn">Contact Us</a>
-                    <button class="smg-mobile-toggle" id="smgToggle" onclick="toggleMobileMenu()" aria-label="Toggle menu">
-                        <span></span><span></span><span></span>
-                    </button>
-                </div>
-
             </div>
+            <iframe id="pdfFrame" src="" title="Newsletter PDF"></iframe>
         </div>
     </div>
-    <!-- ═══ END MAIN NAV ═══ -->
 
-</header>
-
-
-
-
-
-
-
-        <!--footer start-->
-            <footer class="footer widget-footer clearfix">
-                <div class="first-footer">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                </div>
+    <!-- ═══ FOOTER ═══ -->
+    <footer class="footer widget-footer clearfix">
+        <div class="first-footer"><div class="container"><div class="row"><div class="col-lg-12"></div></div></div></div>
+        <div class="second-footer ttm-textcolor-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                        <div class="widget clearfix">
+                            <div class="footer-logo"><img id="footer-logo-img" src="images/logo.svg" width="2000" alt=""></div>
+                            <p style="text-align:justify;word-spacing:-2px;">We are a collective of like minded health professionals who live, practice, and accompany patients and communities through their illness journey across all corners of Uganda.</p>
                         </div>
                     </div>
-                </div>
-                <div class="second-footer ttm-textcolor-white">
-                    <div class="container">
-                        <div class="row">
-                            <!-- Logo + About -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
-                                <div class="widget clearfix">
-                                    <div class="footer-logo">
-                                        <img id="footer-logo-img" src="images/logo.svg" width="2000" alt="">
-                                    </div>
-                                    <p style="text-align: justify; word-spacing: -2px;">We are a collective of like minded health professionals who live, practice, and accompany patients and communities through their illness journey across all corners of Uganda.</p>
-                                </div>
-                            </div>
-        
-                            <!-- Work With Us -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
-                                <div class="widget widget_nav_menu clearfix">
-                                <h3 class="widget-title">Work With Us</h3>
-                                    <ul id="menu-footer-work">
-                                        <li><a href="about-us.html">About Us</a></li>
-                                        <li><a href="what-we-do.html">Our Programs</a></li>
-                                        <li><a href="impact.html">Our Impact</a></li>
-                                        <li><a href="about-us.html#leadership">Our Leadership</a></li>
-                                        <li><a href="careers.html">Careers</a></li>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                        <div class="widget widget_nav_menu clearfix">
+                            <h3 class="widget-title">Work With Us</h3>
+                            <ul>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="what-we-do.html">Our Programs</a></li>
+                                <li><a href="impact.html">Our Impact</a></li>
+                                <li><a href="about-us.html#leadership">Our Leadership</a></li>
+                                <li><a href="careers.html">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                        <div class="widget widget_nav_menu clearfix">
+                            <h3 class="widget-title">Associated Links</h3>
+                            <ul>
+                                <li><a href="https://equalhealth.org" target="_blank" rel="noopener">EqualHealth</a></li>
+                                <li><a href="https://www.merck-family-foundation.com/" target="_blank" rel="noopener">Merck Family Foundation</a></li>
+                                <li><a href="https://amuruvht.com" target="_blank" rel="noopener">Amuru VHTs Association</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                        <div class="widget widget_text clearfix">
+                            <h3 class="widget-title">Contact Us</h3>
+                            <div class="textwidget widget-text">
+                                <p>Kampala, Uganda</p>
+                                <p>Email: <a href="mailto:info@socmedglobalug.org">info@socmedglobalug.org</a></p>
+                                <h3 class="ttm-textcolor-skincolor" style="font-size:20px;">+256 766 533 434<br>+256 741 049 377</h3>
+                                <div class="ttm-social-links-wrapper list-inline" style="margin-top:10px;">
+                                    <ul class="social-icons">
+                                        <li><a href="https://www.facebook.com/share/1MBparZQs6/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://x.com/socmedglobalug" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="https://www.instagram.com/socmedglobal" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/company/socmed-global-uganda" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="https://www.youtube.com/@SocMedGlobalUgandaLtd" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                                        <li><a href="https://wa.me/256766533434" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
                                     </ul>
-                                </div>
-                            </div>
-        
-                            <!-- Associated Links -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
-                                <div class="widget widget_nav_menu clearfix">
-                                <h3 class="widget-title">Associated Links</h3>
-                                    <ul id="menu-footer-links">
-                                        <li><a href="https://equalhealth.org" target="_blank" rel="noopener">EqualHealth</a></li>
-                                        <li><a href="https://www.merck-family-foundation.com/" target="_blank" rel="noopener">Merck Family Foundation</a></li>
-                                        <li><a href="https://amuruvht.com" target="_blank" rel="noopener">Amuru VHTs Association</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-        
-                            <!-- Contact Us -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
-                                <div class="widget widget_text clearfix">
-                                <h3 class="widget-title">Contact Us</h3>
-                                <div class="textwidget widget-text">
-                                        <p>Kampala, Uganda</p>
-                                        <p>Email: <a href="mailto:info@socmedglobalug.org">info@socmedglobalug.org</a></p>
-                                        <h3 class="ttm-textcolor-skincolor" style="font-size: 20px;">+256 766 533 434<br>+256 741 049 377</h3>
-                                        <div class="ttm-social-links-wrapper list-inline" style="margin-top: 10px;">
-                                            <ul class="social-icons">
-        <li>
-                    <a href="https://www.facebook.com/share/1MBparZQs6/" target="_blank">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://x.com/socmedglobalug?t=ws6DjoJaVPUh56FUYyVAcw&s=08" target="_blank">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://www.instagram.com/socmedglobal?utm_source=qr&igsh=ODB4eXFrZXB5NTA=" target="_blank">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://www.linkedin.com/company/socmed-global-uganda" target="_blank">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://www.youtube.com/@SocMedGlobalUgandaLtd" target="_blank">
-                        <i class="fa fa-youtube" aria-hidden="true"></i>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://wa.me/256766533434" target="_blank">
-                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                    </a>
-                </li>
-
-  
-                                  
                                 </div>
                             </div>
                         </div>
                     </div>
- 
                 </div>
             </div>
         </div>
@@ -412,159 +409,129 @@
             <div class="container">
                 <div class="row copyright">
                     <div class="col-md-8 ttm-footer2-left">
-                        <span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> .&nbspSocMed Global Uganda | Powered by <a href="https://www.grayhost.dev"> Grayhost Innovations. </a></span>
+                        <span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> .&nbsp;SocMed Global Uganda | Powered by <a href="https://www.grayhost.dev">Grayhost Innovations.</a></span>
                     </div>
                     <div class="col-md-4 ttm-footer2-right">
-                      <div class="social-icons">
-    <ul class="list-inline">
-
-        <li>
-            <a href="https://www.facebook.com/share/1MBparZQs6/" target="_blank">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-        </li>
-
-        <li>
-            <a href="https://x.com/socmedglobalug?t=ws6DjoJaVPUh56FUYyVAcw&s=08" target="_blank">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-        </li>
-
-        <li>
-            <a href="https://www.instagram.com/socmedglobal?utm_source=qr&igsh=ODB4eXFrZXB5NTA=" target="_blank">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-        </li>
-
-        <li>
-            <a href="https://www.linkedin.com/company/socmed-global-uganda" target="_blank">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-        </li>
-
-        <li>
-            <a href="https://www.youtube.com/@SocMedGlobalUgandaLtd" target="_blank">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-            </a>
-        </li>
-
-        <li>
-            <a href="https://wa.me/256766533434" target="_blank">
-                <i class="fa fa-whatsapp" aria-hidden="true"></i>
-            </a>
-        </li>
-
-    </ul>
-</div>
+                        <div class="social-icons"><ul class="list-inline">
+                            <li><a href="https://www.facebook.com/share/1MBparZQs6/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://x.com/socmedglobalug" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/socmedglobal" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/socmed-global-uganda" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.youtube.com/@SocMedGlobalUgandaLtd" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="https://wa.me/256766533434" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                        </ul></div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
- 
-    <!--back-to-top start-->
-    <a id="totop" href="#top">
-        <i class="fa fa-angle-up"></i>
-    </a>
-    <!--back-to-top end-->
- 
+
+    <a id="totop" href="#top"><i class="fa fa-angle-up"></i></a>
+
 </div><!-- page end -->
- 
- 
-    <!-- Javascript -->
- 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/color-switcher.js"></script> 
-    <script src="js/jquery.easing.js"></script>    
-    <script src="js/jquery-waypoints.js"></script>    
-    <script src="js/jquery-validate.js"></script> 
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/numinate.min6959.js?ver=4.9.3"></script>
-    <script src="js/main.js"></script>
- 
-    <!-- Revolution Slider -->
-    <script src="revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="revolution/js/slider.js"></script>
- 
-    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
-    <script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+
+<!-- Javascript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/color-switcher.js"></script>
+<script src="js/jquery.easing.js"></script>
+<script src="js/jquery-waypoints.js"></script>
+<script src="js/jquery-validate.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/numinate.min6959.js?ver=4.9.3"></script>
+<script src="js/main.js"></script>
+<script src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="revolution/js/slider.js"></script>
+<script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 
 <script>
-    /* ── Click to open/close mega ── */
+    /* ── PDF Modal ── */
+    function openPdfModal(pdfUrl, title) {
+        document.getElementById('pdfFrame').src = pdfUrl;
+        document.getElementById('modalTitle').textContent = title;
+        document.getElementById('modalDownload').href = pdfUrl;
+        document.getElementById('pdfModal').classList.add('open');
+        document.body.style.overflow = 'hidden';
+    }
+    function closePdfModal() {
+        document.getElementById('pdfModal').classList.remove('open');
+        document.getElementById('pdfFrame').src = '';
+        document.body.style.overflow = '';
+    }
+    /* Close on backdrop click */
+    document.getElementById('pdfModal').addEventListener('click', function(e) {
+        if (e.target === this) closePdfModal();
+    });
+    /* Close on Escape */
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closePdfModal();
+    });
+
+    /* ── Sub-dropdown hover ── */
     document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.smg-mega-right ul li').forEach(function (li) {
+            var sub = li.querySelector('.smg-sub-dropdown');
+            if (!sub) return;
+            li.addEventListener('mouseenter', function () { sub.style.display = 'block'; });
+            li.addEventListener('mouseleave', function () { sub.style.display = 'none'; });
+        });
+    });
 
+    /* ── Click mega ── */
+    document.addEventListener('DOMContentLoaded', function () {
         var items = document.querySelectorAll('.smg-menu > li');
-
         items.forEach(function (li) {
             var link = li.querySelector(':scope > a');
             var mega = li.querySelector('.smg-mega');
-
             if (!link) return;
-
             link.addEventListener('click', function (e) {
-                if (!mega) return; // no submenu — follow the link normally
-
+                if (!mega) return;
                 e.preventDefault();
                 var wasOpen = li.classList.contains('open');
-
-                // close all open megas
                 items.forEach(function (el) { el.classList.remove('open'); });
-
-                // toggle this one
                 if (!wasOpen) li.classList.add('open');
             });
         });
-
-        /* Click anywhere outside to close */
         document.addEventListener('click', function (e) {
             if (!e.target.closest('.smg-menu')) {
                 items.forEach(function (el) { el.classList.remove('open'); });
             }
         });
-
     });
 
-    /* ── Mobile menu toggle ── */
     function toggleMobileMenu() {
-        var menu   = document.getElementById('smgMenu');
-        var toggle = document.getElementById('smgToggle');
-        menu.classList.toggle('open');
-        toggle.classList.toggle('active');
+        document.getElementById('smgMenu').classList.toggle('open');
+        document.getElementById('smgToggle').classList.toggle('active');
     }
 </script>
 
- 
-    <!-- Javascript end-->
-    <!-- GetButton.io widget -->
-    <script type="text/javascript">
-      (function () {
-        var options = {
-            whatsapp: "+256766533434", // WhatsApp number
-            call_to_action: "Send us a message", // Call to action
-            button_color: "#FF6550", // Color of button
-            position: "left", // Position may be 'right' or 'left'
-            pre_filled_message: "Welcome to SocMed Global Uganda", // WhatsApp pre-filled message
-        };
-        var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+(function () {
+    var options = {
+        whatsapp: "+256766533434",
+        call_to_action: "Send us a message",
+        button_color: "#FF6550",
+        position: "left",
+        pre_filled_message: "Welcome to SocMed Global Uganda",
+    };
+    var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+    s.src = url + '/widget-send-button/js/init.js';
+    s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+    var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+})();
 </script>
-<!-- /GetButton.io widget -->
- 
+
 </body>
- 
 </html>
- 
