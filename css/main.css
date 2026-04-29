@@ -3251,3 +3251,226 @@ body {
   .team-grid { grid-template-columns: repeat(2, 1fr); }
   .donate-amounts { grid-template-columns: repeat(2, 1fr); }
 }
+
+
+ /* ── Page-level vars ── */
+    :root {
+        --primary:   #F36F21;
+        --secondary: #4DADE1;
+        --dark:      #1a2a3a;
+        --dark-mid:  #1a3a4a;
+        --grey-bg:   #f8f9fa;
+        --border:    #e4e4e4;
+    }
+
+    /* ── Hero ── */
+    .adv-hero {
+        background: linear-gradient(135deg, #1a2a3a 0%, #1a3a4a 50%, #0f2233 100%);
+        padding: 80px 0 65px;
+        position: relative;
+        overflow: hidden;
+    }
+    .adv-hero::before {
+        content:'';
+        position:absolute; top:0; left:0; right:0; bottom:0;
+        background:
+            radial-gradient(ellipse 600px 400px at 80% 50%, rgba(77,173,225,0.08) 0%, transparent 70%),
+            radial-gradient(ellipse 400px 300px at 10% 80%, rgba(243,111,33,0.07) 0%, transparent 70%);
+        pointer-events:none;
+    }
+    .adv-hero-tag {
+        display:inline-flex; align-items:center; gap:8px;
+        background:rgba(243,111,33,0.15); border:1px solid rgba(243,111,33,0.3);
+        border-radius:40px; padding:6px 16px;
+        color:#F36F21; font-size:11px; font-weight:700;
+        letter-spacing:2px; text-transform:uppercase;
+        margin-bottom:20px;
+    }
+    .adv-hero h1 {
+        color:#fff; font-size:42px; font-weight:700; line-height:1.2;
+        margin-bottom:20px;
+    }
+    .adv-hero h1 span { color:#4DADE1; }
+    .adv-hero-sub {
+        color:rgba(255,255,255,0.8); font-size:16px;
+        line-height:1.85; max-width:640px; margin-bottom:32px;
+    }
+    .adv-hero-stat {
+        display:flex; gap:32px; flex-wrap:wrap; margin-top:36px;
+        padding-top:32px; border-top:1px solid rgba(255,255,255,0.1);
+    }
+    .adv-hero-stat-item .num {
+        font-size:32px; font-weight:800; color:#F36F21; line-height:1;
+    }
+    .adv-hero-stat-item .lbl {
+        font-size:12px; color:rgba(255,255,255,0.6);
+        text-transform:uppercase; letter-spacing:1px; margin-top:4px;
+    }
+
+    /* ── Section headings ── */
+    .adv-section { padding:60px 0; }
+    .adv-section-alt { padding:60px 0; background:var(--grey-bg); }
+    .adv-eyebrow {
+        font-size:11px; font-weight:700; color:var(--secondary);
+        text-transform:uppercase; letter-spacing:3px; margin-bottom:10px;
+    }
+    .adv-heading {
+        font-size:30px; font-weight:700; color:var(--dark);
+        margin-bottom:16px; line-height:1.25;
+    }
+    .adv-heading span { color:var(--primary); }
+    .adv-lead {
+        font-size:16px; color:#555; line-height:1.85;
+        margin-bottom:0;
+    }
+
+    /* ── Pillar cards ── */
+    .pillar-card {
+        background:#fff;
+        border-radius:10px;
+        padding:32px 26px;
+        height:100%;
+        border:1px solid var(--border);
+        border-top:4px solid transparent;
+        box-shadow:0 4px 18px rgba(0,0,0,0.06);
+        transition:transform 0.25s, box-shadow 0.25s;
+        position:relative;
+        overflow:hidden;
+    }
+    .pillar-card:hover {
+        transform:translateY(-5px);
+        box-shadow:0 12px 36px rgba(0,0,0,0.11);
+    }
+    .pillar-card.orange { border-top-color:var(--primary); }
+    .pillar-card.blue   { border-top-color:var(--secondary); }
+    .pillar-card-icon {
+        width:52px; height:52px; border-radius:10px;
+        display:flex; align-items:center; justify-content:center;
+        margin-bottom:18px; font-size:22px;
+    }
+    .pillar-card.orange .pillar-card-icon { background:#fff5ee; color:var(--primary); }
+    .pillar-card.blue   .pillar-card-icon { background:#eef7fd; color:var(--secondary); }
+    .pillar-card h5 {
+        font-size:17px; font-weight:700; color:var(--dark);
+        margin-bottom:12px;
+    }
+    .pillar-card p { font-size:14px; color:#666; line-height:1.8; margin:0; }
+
+    /* ── Activity blocks ── */
+    .activity-block {
+        background:#fff;
+        border-radius:12px;
+        overflow:hidden;
+        box-shadow:0 4px 20px rgba(0,0,0,0.07);
+        margin-bottom:32px;
+        display:flex;
+    }
+    .activity-block-accent {
+        width:6px; flex-shrink:0;
+    }
+    .activity-block-accent.orange { background:var(--primary); }
+    .activity-block-accent.blue   { background:var(--secondary); }
+    .activity-block-body { padding:32px 30px; flex:1; }
+    .activity-block-date {
+        display:inline-flex; align-items:center; gap:6px;
+        background:var(--grey-bg); border-radius:20px;
+        padding:4px 12px; font-size:12px; font-weight:600;
+        color:#888; margin-bottom:14px;
+    }
+    .activity-block h4 {
+        font-size:20px; font-weight:700; color:var(--dark);
+        margin-bottom:12px;
+    }
+    .activity-block p { font-size:15px; color:#555; line-height:1.85; margin:0; }
+
+    /* ── Quote banner ── */
+    .adv-quote-banner {
+        background:linear-gradient(135deg, #1a3a4a 0%, #1a2a3a 100%);
+        border-radius:12px; padding:48px 44px;
+        position:relative; overflow:hidden;
+    }
+    .adv-quote-banner::before {
+        content:'\201C';
+        position:absolute; top:-20px; left:24px;
+        font-size:200px; font-weight:700; line-height:1;
+        color:rgba(77,173,225,0.08); font-family:Georgia,serif;
+        pointer-events:none;
+    }
+    .adv-quote-banner p {
+        font-size:20px; font-style:italic; color:#fff;
+        line-height:1.75; margin:0; position:relative;
+        border-left:4px solid var(--primary);
+        padding-left:24px;
+    }
+    .adv-quote-banner p span { color:var(--secondary); font-style:normal; font-weight:700; }
+
+    /* ── Impact highlights ── */
+    .impact-pill {
+        display:flex; align-items:flex-start; gap:14px;
+        background:#fff; border-radius:8px;
+        padding:18px 20px; margin-bottom:14px;
+        border:1px solid var(--border);
+        transition:border-color 0.2s;
+    }
+    .impact-pill:hover { border-color:var(--secondary); }
+    .impact-pill-icon {
+        width:36px; height:36px; border-radius:8px;
+        background:#eef7fd; display:flex; align-items:center;
+        justify-content:center; flex-shrink:0;
+        color:var(--secondary); font-size:16px;
+    }
+    .impact-pill p { margin:0; font-size:14px; color:#444; line-height:1.6; font-weight:600; }
+
+    /* ── CTA section ── */
+    .adv-cta {
+        background:linear-gradient(135deg, #F36F21 0%, #e05a10 100%);
+        padding:70px 0; text-align:center; position:relative; overflow:hidden;
+    }
+    .adv-cta::before {
+        content:'';
+        position:absolute; top:-80px; right:-80px;
+        width:300px; height:300px; border-radius:50%;
+        border:2px solid rgba(255,255,255,0.1);
+        pointer-events:none;
+    }
+    .adv-cta::after {
+        content:'';
+        position:absolute; bottom:-60px; left:-40px;
+        width:220px; height:220px; border-radius:50%;
+        border:2px solid rgba(255,255,255,0.08);
+        pointer-events:none;
+    }
+    .adv-cta h2 {
+        color:#fff; font-size:34px; font-weight:700;
+        margin-bottom:16px; position:relative; z-index:2;
+    }
+    .adv-cta p {
+        color:rgba(255,255,255,0.88); font-size:16px;
+        max-width:580px; margin:0 auto 32px; line-height:1.8;
+        position:relative; z-index:2;
+    }
+    .adv-cta-btns { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; position:relative; z-index:2; }
+    .btn-white {
+        background:#fff; color:var(--primary);
+        padding:14px 36px; border-radius:4px;
+        font-size:14px; font-weight:700;
+        text-decoration:none; transition:all 0.2s;
+        display:inline-block;
+    }
+    .btn-white:hover { background:#fff5ee; color:var(--primary); }
+    .btn-outline-white {
+        background:transparent; color:#fff;
+        border:2px solid rgba(255,255,255,0.6);
+        padding:12px 36px; border-radius:4px;
+        font-size:14px; font-weight:700;
+        text-decoration:none; transition:all 0.2s;
+        display:inline-block;
+    }
+    .btn-outline-white:hover { border-color:#fff; color:#fff; background:rgba(255,255,255,0.08); }
+
+    /* ── Decorative circles ── */
+    .deco-circle {
+        position:absolute; border-radius:50%;
+        border:2px solid rgba(77,173,225,0.15);
+        pointer-events:none;
+    }
