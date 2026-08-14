@@ -1,738 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- home-439:07-->
 <head>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>SocMed Global Uganda | Health Equity, Social Medicine & Community Health</title>
-<meta name="description" content="SocMed Global Uganda is a collective of health professionals advancing health equity through social medicine education, community outreach, and the Campaign Against Racism across Uganda." />
-<meta name="keywords" content="SocMed Global Uganda, health equity Uganda, social medicine Uganda, campaign against racism Uganda, NGO Uganda, community health Uganda, health inequities, EqualHealth Uganda, social medicine education, health professionals Uganda" />
-<meta name="author" content="SocMed Global Uganda" />
-<meta name="robots" content="index, follow" />
-<meta name="language" content="English" />
-<link rel="canonical" href="https://www.socmedglobalug.org/" />
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="https://www.socmedglobalug.org/" />
-<meta property="og:title" content="SocMed Global Uganda | Health Equity for All" />
-<meta property="og:description" content="A collective of health professionals who live, practice, and accompany patients and communities through their illness journey across all corners of Uganda — advancing health equity through education, outreach, and advocacy." />
-<meta property="og:image" content="https://www.socmedglobalug.org/images/og-preview.jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="SocMed Global Uganda — Health Equity for All" />
-<meta property="og:site_name" content="SocMed Global Uganda" />
-<meta property="og:locale" content="en_UG" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@SocMedGlobalUG" />
-<meta name="twitter:title" content="SocMed Global Uganda | Health Equity for All" />
-<meta name="twitter:description" content="Advancing health equity through social medicine education, community outreach, and the Campaign Against Racism across Uganda." />
-<meta name="twitter:image" content="https://www.socmedglobalug.org/images/og-preview.jpg" />
-<meta name="geo.region" content="UG" />
-<meta name="geo.placename" content="Kampala, Uganda" />
-<meta name="geo.position" content="0.3476;32.5825" />
-<meta name="ICBM" content="0.3476, 32.5825" />
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NGO",
-  "name": "SocMed Global Uganda",
-  "alternateName": "SocMed Global UG",
-  "url": "https://www.socmedglobalug.org",
-  "logo": "https://www.socmedglobalug.org/images/logo.svg",
-  "description": "A collective of health professionals advancing health equity through social medicine education, community outreach, and the Campaign Against Racism across Uganda.",
-  "foundingDate": "2018",
-  "areaServed": "Uganda",
-  "address": { "@type": "PostalAddress", "addressLocality": "Kampala", "addressCountry": "UG" },
-  "contactPoint": { "@type": "ContactPoint", "telephone": "+256-766-533-434", "contactType": "customer service", "email": "info@socmedglobalug.org" },
-  "sameAs": ["https://www.facebook.com/profile.php?id=100090264356017"]
-}
-</script>
-<link rel="shortcut icon" href="images/favicon.png" />
-<link rel="icon" type="image/png" href="images/favicon.png" />
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-<link rel="stylesheet" type="text/css" href="css/animate.css"/>
-<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
-<link rel="stylesheet" type="text/css" href="css/themify-icons.css"/>
-<link rel="stylesheet" type="text/css" href="css/flaticon.css"/>
-<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
-<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-<link rel="stylesheet" type="text/css" href="css/shortcodes.css"/>
-<link rel="stylesheet" type="text/css" href="css/main.css"/>
-<link rel="stylesheet" type="text/css" href="css/color-switcher.css">
-<link id="switcher-color" href="css/colors/default-color.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kaushan+Script&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-<style>
-/* ── Rotating hero headline ── */
-.hero-rotate-wrap { overflow: hidden; }
-.hero-rotate-text {
-    display: inline-block;
-    animation: heroRotate 9s infinite;
-}
-@keyframes heroRotate {
-    0%,28%  { opacity:1; transform:translateY(0); }
-    33%     { opacity:0; transform:translateY(-20px); }
-    34%     { opacity:0; transform:translateY(20px); }
-    62%,95% { opacity:1; transform:translateY(0); }
-    100%    { opacity:0; transform:translateY(-20px); }
-}
-/* Three-phrase cycle via JS-driven class swap (see script below) */
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SocMed Global Uganda | Health Equity for All</title>
+<meta name="description" content="SocMed Global Uganda is a collective of health professionals advancing health equity through social medicine education, community outreach, and advocacy across Uganda.">
+<link rel="shortcut icon" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/redesign.css">
 </head>
+<body data-active="home">
 
-<body>
-<div class="page">
+<!-- ═══════════════ HEADER / NAV ═══════════════ -->
+<div id="site-header"></div>
 
-    <div id="preloader"><div id="status">&nbsp;</div></div>
+<!-- ═══════════════ HERO SLIDER ═══════════════ -->
+<div class="hero-wrap">
+    <section class="hero" id="hero">
 
-    <!-- ═══ HEADER ═══ -->
-    <header id="masthead" class="header ttm-header-style-classic">
-        <!-- <div style="background:linear-gradient(135deg,#F36F21 0%,#F36F21 100%);color:white;padding:10px 0;border-bottom:3px solid #4DADE1;">
-            <div class="container">
-                <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:15px;">
-                    <div style="display:flex;align-items:center;gap:12px;">
-                        <i class="fa fa-bullhorn" style="font-size:1.2rem;color:#fff;"></i>
-                        <span style="font-weight:600;font-size:0.9rem;">CALL FOR APPLICATIONS 2026 — Global Health in Local Contexts</span>
-                    </div>
-                    <a href="apply.html" style="background-color:#fff;color:#F36F21;padding:7px 24px;border-radius:40px;text-decoration:none;font-weight:700;font-size:0.85rem;display:inline-flex;align-items:center;gap:8px;">Apply Now →</a>
+        <div class="hero-slide is-active">
+            <div class="bg"><img src="images/slides/slider-mainbg-009%20-%20Copy.jpg" alt="SocMed Global Uganda and the EqualHealth cohort in Uganda"></div>
+            <div class="hero-content"><div class="inner">
+                <h1>Health Equity <span class="accent">for All</span></h1>
+                <p class="sub">A collective of health professionals advancing health equity across Uganda.</p>
+                <div class="hero-actions">
+                    <a href="about-us.html" class="btn-pill primary">About Us
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                    <a href="impact.html" class="btn-pill ghost">Our Impact
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
                 </div>
-            </div>
-        </div> -->
-        <div class="smg-nav-wrap">
-            <div class="container">
-                <div class="smg-nav-inner">
-                    <div class="smg-logo"><a href="index.html"><img src="images/logo.svg" alt="SocMed Global Uganda"></a></div>
-                    <ul class="smg-menu" id="smgMenu">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li>
-                            <a href="about-us.html">About us <i class="fa fa-chevron-down smg-caret"></i></a>
-                            <div class="smg-mega"><div class="smg-mega-inner">
-                                <div class="smg-mega-left"><div><h4>Who We Are</h4><p>A collective of health professionals advancing health equity through education, outreach, and advocacy across Uganda.</p></div></div>
-                                <div class="smg-mega-right"><ul><li><a href="about-us.html">Who we are</a></li><li><a href="leadership.html">Our Leadership</a></li></ul></div>
-                            </div></div>
-                        </li>
-                        <li>
-                            <a href="what-we-do.html">What We Do <i class="fa fa-chevron-down smg-caret"></i></a>
-                            <div class="smg-mega"><div class="smg-mega-inner">
-                                <div class="smg-mega-left"><div><h4>What We Do</h4><p>We advance health equity by building on key, simple and impact-driven approaches to create sustainable systems and solutions.</p></div></div>
-                                <div class="smg-mega-right"><ul>
-                                    <li><a href="apply.html">Social Medicine Education</a></li>
-                                    <li><a href="community-outreach.html">Community Outreach</a></li>
-                                    <li><a href="advocacy.html">Advocacy</a></li>
-                                    <li><a href="gender-womens-health.html">Gender &amp; Women's Health</a></li>
-                                </ul></div>
-                            </div></div>
-                        </li>
-                        <li>
-                            <a href="impact.html">Our Impact <i class="fa fa-chevron-down smg-caret"></i></a>
-                            <div class="smg-mega"><div class="smg-mega-inner">
-                                <div class="smg-mega-left"><div><h4>Our Impact</h4><p>From Amuru to Karamoja, our work is making health equity a reality for communities across Uganda.</p></div></div>
-                                <div class="smg-mega-right"><ul>
-                                    <li><a href="apply.html">The Social Medicine Course</a></li>
-                                    <li><a href="care-connect-amuru.html">CareConnect Amuru</a></li>
-                                    <li><a href="impact.html#car">Campaign Against Racism</a></li>
-                                    <li style="position:relative;">
-                                        <a href="#" style="display:flex;align-items:center;justify-content:space-between;gap:8px;">Sub Programmes <i class="fa fa-chevron-right" style="font-size:10px;opacity:0.6;"></i></a>
-                                        <ul style="display:none;position:absolute;right:100%;top:0;background:#fff;border-top:3px solid #F36F21;box-shadow:0 8px 24px rgba(0,0,0,0.12);min-width:220px;list-style:none;padding:0;margin:0;z-index:1000;" class="smg-sub-dropdown">
-                                            <li style="border-bottom:1px solid #eee;"><a href="service-to-community.html" style="display:block;padding:13px 16px;font-size:14px;font-weight:600;color:#1a2a3a;text-decoration:none;" onmouseover="this.style.color='#F36F21';this.style.paddingLeft='22px';" onmouseout="this.style.color='#1a2a3a';this.style.paddingLeft='16px';">Service to Community</a></li>
-                                            <li><a href="debate-and-dialogue.html" style="display:block;padding:13px 16px;font-size:14px;font-weight:600;color:#1a2a3a;text-decoration:none;" onmouseover="this.style.color='#F36F21';this.style.paddingLeft='22px';" onmouseout="this.style.color='#1a2a3a';this.style.paddingLeft='16px';">Debate &amp; Dialogue</a></li>
-                                        </ul>
-                                    </li>
-                                </ul></div>
-                            </div></div>
-                        </li>
-                        <li>
-                            <a href="news.html">Newsroom <i class="fa fa-chevron-down smg-caret"></i></a>
-                            <div class="smg-mega"><div class="smg-mega-inner">
-                                <div class="smg-mega-left"><div><h4>Newsroom</h4><p>Stay up to date with our latest news, career opportunities, and newsletters from SocMed Global Uganda.</p></div></div>
-                                <div class="smg-mega-right"><ul>
-                                    <li><a href="news.html">News &amp; Updates</a></li>
-                                    <li><a href="careers.html">Careers</a></li>
-                                    <li><a href="newsletters.html">Newsletters</a></li>
-                                </ul></div>
-                            </div></div>
-                        </li>
-                        <li><a href="contact-us.html">Contact</a></li>
-                    </ul>
-                    <div class="smg-actions">
-                        <button class="smg-search-btn" title="Search"><i class="ti ti-search"></i></button>
-                        <button class="smg-mobile-toggle" id="smgToggle" onclick="toggleMobileMenu()" aria-label="Toggle menu">
-                            <span></span><span></span><span></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
+            </div></div>
         </div>
-    </header>
 
-    <!-- ═══ HERO SLIDER (rotating headline) ═══ -->
-    <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container slide-overlay" data-alias="classic4export" data-source="gallery">
-        <div id="rev_slider_4_1" class="rev_slider fullwidthabanner" data-version="5.4.8.1">
-            <ul>
-                <!-- Slide 1 -->
-                <li data-index="rs-3" data-transition="slotslide-horizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-rotate="0" data-saveperformance="off" data-title="Slide">
-                    <img src="images/slides/slider-mainbg-001.jpg" alt="" title="slider-mainbg-001" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+        <div class="hero-slide">
+            <div class="bg"><img src="images/slides/slider-mainbg-002.jpg" alt="Social medicine and clinical practice"></div>
+            <div class="hero-content"><div class="inner">
+                <h1>Social Medicine <span class="accent">Education</span></h1>
+                <p class="sub">The annual Social Medicine Course, delivered in partnership with EqualHealth.</p>
+                <div class="hero-actions">
+                    <a href="apply.html" class="btn-pill primary">Learn More
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                    <a href="about-us.html" class="btn-pill ghost">About Us
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                </div>
+            </div></div>
+        </div>
 
-                    <!-- Rotating headline -->
-                    <div class="tp-caption tp-resizeme" id="slide-3-layer-2"
-                        data-x="['left','left','center','center']" data-hoffset="['49','39','0','0']"
-                        data-y="['top','top','middle','middle']" data-voffset="['189','199','-83','-44']"
-                        data-fontsize="['60','60','48','32']" data-lineheight="['70','70','60','42']"
-                        data-fontweight="['600','600','600','600']"
-                        data-color="['rgb(242,244,248)','rgb(242,244,248)','rgb(242,244,248)','rgb(242,244,248)']"
-                        data-width="['700','600','500','320']" data-height="none" data-whitespace="normal"
-                        data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":350,"speed":800,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power0.easeIn"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                        <span id="heroHeadline">Reimagining Health Systems.</span>
-                    </div>
+        <div class="hero-slide">
+            <div class="bg"><img src="images/slides/slider-mainbg-010.jpg" alt="Community outreach in rural Uganda"></div>
+            <div class="hero-content"><div class="inner">
+                <h1>Community <span class="accent">Outreach</span></h1>
+                <p class="sub">Strengthening community health systems, including CareConnect Amuru.</p>
+                <div class="hero-actions">
+                    <a href="community-outreach.html" class="btn-pill primary">Learn More
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                    <a href="care-connect-amuru.html" class="btn-pill ghost">CareConnect Amuru
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                </div>
+            </div></div>
+        </div>
 
-                    <!-- Static subtitle -->
-                    <div class="tp-caption tp-resizeme" id="slide-3-layer-4"
-                        data-x="['left','left','center','center']" data-hoffset="['50','40','-142','-473']"
-                        data-y="['top','top','middle','middle']" data-voffset="['330','340','60','90']"
-                        data-fontsize="['20','20','17','14']" data-lineheight="['30','30','25','22']"
-                        data-color="['rgb(242,244,248)','rgb(242,244,248)','rgb(242,244,248)','rgb(242,244,248)']"
-                        data-width="['600','500','400','300']" data-height="none" data-whitespace="normal"
-                        data-visibility="['on','on','on','off']" data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":1500,"speed":400,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power0.easeIn"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                        We are building a future where healthcare is accessible, responsive, and just.
-                    </div>
+        <div class="hero-slide">
+            <div class="bg"><img src="images/slides/single-img-ten.jpg" alt="Advocacy and student-led dialogue"></div>
+            <div class="hero-content"><div class="inner">
+                <h1>Advocacy &amp; <span class="accent">Social Justice</span></h1>
+                <p class="sub">Connecting local lived experience to global advocacy and dialogue.</p>
+                <div class="hero-actions">
+                    <a href="advocacy.html" class="btn-pill primary">Learn More
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                    <a href="impact.html" class="btn-pill ghost">Our Impact
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                </div>
+            </div></div>
+        </div>
 
-                    <a class="tp-caption skin-flat-button tp-resizeme" href="impact.html" target="_self" id="slide-3-layer-9"
-                        data-x="['left','left','center','center']" data-hoffset="['50','40','0','0']"
-                        data-y="['top','top','middle','middle']" data-voffset="['420','430','150','100']"
-                        data-fontsize="['13','13','12','11']" data-lineheight="['13','13','12','11']"
-                        data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-actions=''
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":1970,"speed":500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power0.easeIn"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-paddingtop="[20,20,15,12]" data-paddingright="[30,30,25,20]" data-paddingbottom="[20,20,15,12]" data-paddingleft="[30,30,25,20]">Our Impact</a>
+        <div class="hero-dots"><div class="inner" id="heroDots">
+            <button class="is-active" aria-label="Slide 1"></button>
+            <button aria-label="Slide 2"></button>
+            <button aria-label="Slide 3"></button>
+            <button aria-label="Slide 4"></button>
+        </div></div>
 
-                    <a class="tp-caption white-flatborder-button tp-resizeme" href="contact-us.html" target="_self" id="slide-3-layer-10"
-                        data-x="['left','left','center','center']" data-hoffset="['195','185','0','0']"
-                        data-y="['top','top','middle','middle']" data-voffset="['420','430','210','160']"
-                        data-fontsize="['13','13','12','11']" data-lineheight="['13','13','12','11']"
-                        data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-actions=''
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":2100,"speed":500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power0.easeIn"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-paddingtop="[18,18,15,12]" data-paddingright="[30,30,25,20]" data-paddingbottom="[18,18,15,12]" data-paddingleft="[30,30,25,20]">Partner With Us</a>
-                </li>
+        <div class="hero-nav">
+            <button id="heroPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg></button>
+            <button id="heroNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg></button>
+        </div>
+    </section>
+</div>
 
-                <!-- Slide 2 -->
-                <li data-index="rs-4" data-transition="slotslide-horizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-rotate="0" data-saveperformance="off" data-title="Slide">
-                    <img src="images/slides/slider-mainbg-002.jpg" alt="" title="slider-mainbg-002" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-
-                    <div class="tp-caption tp-resizeme" id="slide-4-layer-2"
-                        data-x="['right','right','center','center']" data-hoffset="['50','40','0','0']"
-                        data-y="['top','top','middle','middle']" data-voffset="['146','159','-153','-121']"
-                        data-fontsize="['73','73','60','40']" data-lineheight="['100','100','80','50']"
-                        data-fontweight="['600','600','600','600']"
-                        data-color="['rgb(242,244,248)','rgb(242,244,248)','rgb(242,244,248)','rgb(242,244,248)']"
-                        data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":140,"speed":800,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power0.easeIn"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"><strong class="ttm-textcolor-skincolor"> Campaign</strong></div>
-
-                    <div class="tp-caption tp-resizeme" id="slide-4-layer-3"
-                        data-x="['right','right','center','center']" data-hoffset="['50','40','0','0']"
-                        data-y="['top','top','top','top']" data-voffset="['226','242','98','74']"
-                        data-fontsize="['73','73','60','40']" data-lineheight="['100','100','80','50']"
-                        data-fontweight="['600','600','600','600']"
-                        data-color="['rgb(242,244,248)','rgb(242,244,248)','rgb(242,244,248)','rgb(242,244,248)']"
-                        data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":560,"speed":800,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power0.easeIn"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">against RACISM</div>
-
-                    <div class="tp-caption tp-resizeme" id="slide-4-layer-11"
-                        data-x="['right','right','center','center']" data-hoffset="['50','40','0','0']"
-                        data-y="['top','top','middle','middle']" data-voffset="['327','342','-19','-25']"
-                        data-fontsize="['29','29','30','20']" data-lineheight="['40','40','40','30']"
-                        data-color="['rgb(242,244,248)','rgb(242,244,248)','rgb(242,244,248)','rgb(242,244,248)']"
-                        data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":1030,"speed":500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power0.easeIn"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">SOCMED GLOBAL UGANDA</div>
-
-                    <a class="tp-caption white-flatborder-button tp-resizeme" href="about-us.html" target="_self" id="slide-4-layer-13"
-                        data-x="['right','right','center','center']" data-hoffset="['233','224','0','0']"
-                        data-y="['top','top','middle','middle']" data-voffset="['453','466','94','65']"
-                        data-fontsize="['13','13','12','11']" data-lineheight="['13','13','12','11']"
-                        data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-actions=''
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":1320,"speed":500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power0.easeIn"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-paddingtop="[18,18,15,12]" data-paddingright="[30,30,25,20]" data-paddingbottom="[18,18,15,12]" data-paddingleft="[30,30,25,20]">READ MORE</a>
-
-                    <a class="tp-caption skin-flat-button tp-resizeme" href="what-we-do.html" target="_self" id="slide-4-layer-9"
-                        data-x="['right','right','center','center']" data-hoffset="['50','40','0','0']"
-                        data-y="['top','top','middle','middle']" data-voffset="['454','467','153','115']"
-                        data-fontsize="['13','13','12','11']" data-lineheight="['13','13','12','11']"
-                        data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-actions=''
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":1470,"speed":500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power0.easeIn"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-paddingtop="[20,20,15,12]" data-paddingright="[30,30,25,20]" data-paddingbottom="[20,20,15,12]" data-paddingleft="[30,30,25,20]">WHAT WE DO</a>
-                </li>
-            </ul>
+<!-- ═══════════════ GUIDING VALUES / STATS ═══════════════ -->
+<section class="section">
+    <div class="container">
+        <div class="sec-head sec-flex">
+            <div>
+                <span class="pill-tag outline"><span class="dot"></span> Our Values</span>
+                <h2 class="sec-title" style="margin-top:22px;">Guiding Values for Health Equity</h2>
+            </div>
+            <p class="lead">We reimagine equitable approaches to healthcare delivery, education, and research that center the communities living the effects of inequity.</p>
+        </div>
+        <div class="mini-stats" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
+            <div class="mini-stat"><div class="n">2018</div><div class="l"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1 2.7 2 6 2s6-1 6-2v-5"/></svg> Founded</div></div>
+            <div class="mini-stat"><div class="n">4</div><div class="l"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg> Programmes</div></div>
+            <div class="mini-stat"><div class="n">2+</div><div class="l"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Regions Reached</div></div>
+            <div class="mini-stat"><div class="n">250+</div><div class="l"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg> Trained</div></div>
         </div>
     </div>
-    <!-- END REVOLUTION SLIDER -->
+</section>
 
-    <!-- ═══ HOMEPAGE INTRO (replaces "Who We Are") ═══ -->
-    <section class="ttm-row about3-section">
+<!-- ═══════════════ WHO WE ARE ═══════════════ -->
+<section class="section">
+    <div class="container">
+        <div class="whoweare">
+            <div class="ww-media"><img src="images/who-we-are-2.jpg" alt="The health professionals of SocMed Global Uganda"></div>
+            <div class="ww-body">
+                <span class="pill-tag">Who We Are</span>
+                <h2>SocMed Global Uganda</h2>
+                <p>Inspired by the stories of self and that of their patients and communities, SocMed Global Uganda is a collective of like minded health professionals who live, practice, and accompany patients and communities through their illness journey across all corners of Uganda.</p>
+                <a href="about-us.html" class="btn btn-dark">About Us
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ VISION / MISSION / SLOGAN ═══════════════ -->
+<section class="section bg-alt">
+    <div class="container">
+        <div class="guides-head">
+            <span class="eyebrow-plain">What Guides Us</span>
+            <h2>The vision, mission and promise that guide our work</h2>
+        </div>
+        <div class="features guides">
+            <div class="feature">
+                <div class="fic sq"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+                <h4>Our Vision</h4>
+                <p>A Uganda free of health inequities.</p>
+            </div>
+            <div class="feature">
+                <div class="fic sq"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.4" fill="#fff"/></svg></div>
+                <h4>Our Mission</h4>
+                <p>To promote health equity in Uganda, through practice, education, research, and empowerment.</p>
+            </div>
+            <div class="feature">
+                <div class="fic sq"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M12 2a3 3 0 0 1 3 3v6a3 3 0 0 1-6 0V5a3 3 0 0 1 3-3z"/><path d="M19 10a7 7 0 0 1-14 0M12 19v3"/></svg></div>
+                <h4>Our Slogan</h4>
+                <p>SocMed Global Uganda - "Health Equity for all".</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ WHAT WE DO ═══════════════ -->
+<section class="section">
+    <div class="container">
+        <div class="sec-head">
+            <span class="pill-tag">What We Do</span>
+            <h2 class="sec-title" style="margin-top:20px;">How we advance <span class="accent">health equity</span></h2>
+        </div>
+        <div class="features">
+            <div class="feature">
+                <div class="fic"><svg viewBox="0 0 24 24" stroke-width="1.6"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></div>
+                <div class="idx">01</div>
+                <h4>Practice</h4>
+                <p>We live, practice, and accompany patients and communities through their illness journey.</p>
+            </div>
+            <div class="feature">
+                <div class="fic"><svg viewBox="0 0 24 24" stroke-width="1.6"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+                <div class="idx">02</div>
+                <h4>Education</h4>
+                <p>Social medicine education, including the annual Social Medicine Course.</p>
+            </div>
+            <div class="feature">
+                <div class="fic"><svg viewBox="0 0 24 24" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div>
+                <div class="idx">03</div>
+                <h4>Research</h4>
+                <p>Research that centres the communities experiencing and living the effects of inequity.</p>
+            </div>
+            <div class="feature">
+                <div class="fic"><svg viewBox="0 0 24 24" stroke-width="1.6"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+                <div class="idx">04</div>
+                <h4>Empowerment</h4>
+                <p>Empowering communities and a conscious generation of young leaders.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ OUR IMPACT ═══════════════ -->
+<section class="section bg-alt">
+    <div class="container">
+        <div class="sec-head sec-flex">
+            <div>
+                <span class="pill-tag">SocMed Global Uganda</span>
+                <h2 class="sec-title" style="margin-top:20px;">Our Impact</h2>
+            </div>
+            <p class="lead">From Amuru to Karamoja, our work connects local lived experience to lasting change for communities across Uganda.</p>
+        </div>
+        <div class="impact-grid">
+            <a href="impact.html" class="impact-card">
+                <div class="ph"><img src="images/blog/05.jpg" alt="Challenging structural inequities in health"></div>
+                <h4>Challenging structural inequities in health</h4>
+                <p>Through coalition building, partnerships, and interdisciplinary organising, we connect local lived experiences to global advocacy for justice.</p>
+                <span class="more">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </a>
+            <a href="care-connect-amuru.html" class="impact-card">
+                <div class="ph"><img src="images/blog/07.jpg" alt="Supporting community health systems"></div>
+                <h4>Supporting community health systems</h4>
+                <p>We help frontline health workers reach households, improve referrals, and expand timely care in underserved communities in Amuru.</p>
+                <span class="more">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </a>
+            <a href="apply.html" class="impact-card">
+                <div class="ph"><img src="images/blog/08.jpg" alt="Training equity-focused health professionals"></div>
+                <h4>Training equity-focused professionals</h4>
+                <p>We deliver the Social Medicine Course as the Ugandan site alongside Haiti and the US, in partnership with EqualHealth.</p>
+                <span class="more">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ OUR NETWORK ═══════════════ -->
+<section class="section">
+    <div class="container">
+        <div class="sec-head sec-flex">
+            <div>
+                <span class="pill-tag">Our Network</span>
+                <h2 class="sec-title" style="margin-top:20px;">Partners &amp; Collaborators</h2>
+            </div>
+            <p class="lead">We work alongside a growing network of organisations, institutions, and communities committed to advancing health equity across Uganda and beyond.</p>
+        </div>
+        <div class="network-grid">
+            <a href="https://equalhealth.org" target="_blank" rel="noopener" class="partner-card">
+                <div class="logo"><img src="images/equalhealth.png" alt="EqualHealth"></div>
+                <h4>EqualHealth</h4>
+                <p>Partner in the Social Medicine Course.</p>
+            </a>
+            <a href="https://amuruvht.com" target="_blank" rel="noopener" class="partner-card">
+                <div class="logo"><img src="images/amuru-vht.png" alt="Amuru VHTs Association"></div>
+                <h4>Amuru VHTs Association</h4>
+                <p>Community health partner in Amuru.</p>
+            </a>
+            <a href="https://www.merck-family-foundation.com/" target="_blank" rel="noopener" class="partner-card">
+                <div class="logo"><img src="images/merck-logo.png" alt="Merck Family Foundation"></div>
+                <h4>Merck Family Foundation</h4>
+                <p>Supporting partner of our work.</p>
+            </a>
+            <a href="https://www.must.ac.ug" target="_blank" rel="noopener" class="partner-card">
+                <div class="logo"><img src="images/MUST.png" alt="Mbarara University of Science &amp; Technology"></div>
+                <h4>Mbarara University</h4>
+                <p>Institutional collaborator.</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ JOIN US ═══════════════ -->
+<section class="join">
+    <div class="container">
+        <div class="join-inner">
+            <span class="pill-tag">Join Us</span>
+            <h2>Join Us in Advancing Health Equity</h2>
+            <p>Whether you are a partner, supporter, or health professional, there is a place for you in this work. Together, we can build systems that bring care closer to every community.</p>
+            <div class="join-actions">
+                <a href="contact-us.html" class="btn-pill primary">Partner With Us</a>
+                <a href="donate.html" class="btn-pill light">Donate</a>
+                <a href="careers.html" class="btn-pill ghost">Work With Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <img src="images/logo.svg" alt="SocMed Global Uganda">
+                <p>We are a collective of like minded health professionals who live, practice, and accompany patients and communities through their illness journey across all corners of Uganda.</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/share/1MBparZQs6/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                    <a href="https://x.com/socmedglobalug" target="_blank" rel="noopener" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+                    <a href="https://www.instagram.com/socmedglobal" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+                    <a href="https://www.linkedin.com/company/socmed-global-uganda" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg></a>
+                    <a href="https://www.youtube.com/@SocMedGlobalUgandaLtd" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.5 6.2a2.8 2.8 0 0 0-2-2C18.7 3.7 12 3.7 12 3.7s-6.7 0-8.5.5a2.8 2.8 0 0 0-2 2A29 29 0 0 0 1 12a29 29 0 0 0 .5 5.8 2.8 2.8 0 0 0 2 2c1.8.5 8.5.5 8.5.5s6.7 0 8.5-.5a2.8 2.8 0 0 0 2-2A29 29 0 0 0 23 12a29 29 0 0 0-.5-5.8zM10 15.5v-7l6 3.5z"/></svg></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h5>Work With Us</h5>
+                <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="what-we-do.html">Our Programs</a></li>
+                    <li><a href="impact.html">Our Impact</a></li>
+                    <li><a href="leadership.html">Our Leadership</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h5>Associated Links</h5>
+                <ul>
+                    <li><a href="https://equalhealth.org" target="_blank" rel="noopener">EqualHealth</a></li>
+                    <li><a href="https://www.merck-family-foundation.com/" target="_blank" rel="noopener">Merck Family Foundation</a></li>
+                    <li><a href="https://amuruvht.com" target="_blank" rel="noopener">Amuru VHTs Association</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col footer-contact">
+                <h5>Contact Us</h5>
+                <div class="cline"><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><span>Kampala, Uganda</span></div>
+                <div class="cline"><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></span><a href="mailto:info@socmedglobalug.org">info@socmedglobalug.org</a></div>
+                <div class="cline"><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><span>+256 766 533 434<br>+256 741 049 377</span></div>
+            </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-cta">
+            <h2>Get In Touch</h2>
+            <form class="subscribe" onsubmit="return false;">
+                <input type="email" placeholder="Email address" aria-label="Email address">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-12">
-                    <div class="ttm_single_image-wrapper mb-35">
-                        <img class="img-fluid" src="images/who-we-are.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-7 col-sm-12">
-                    <div class="pl-20">
-                        <div class="section-title clearfix">
-                            <div class="title-header">
-                                <h5 style="color:#4DADE1;">SOCMED GLOBAL UGANDA</h5>
-                                <h2 class="title" style="color:#F36F21;">Health Equity for All</h2>
-                            </div>
-                        </div>
-                        <!-- Updated intro text per document -->
-                        <p style="text-align:justify; word-spacing:-2px;"><strong>Challenged by the incessant disparities in health outcomes across population groups and geographies, we strive to reimagine equitable approaches to healthcare delivery, education and research that centers communities experiencing and living the effects of social, economic, cultural, geographical, and political disenfranchisement.</strong></p>
-                        <p class="mb-30" style="text-align:justify; word-spacing:-2px;">Inspired by the stories of self and that of their patients and communities, SocMed Global Uganda is a collective of like minded health professionals who live, practice, and accompany patients and communities through their illness journey across all corners of Uganda.</p>
-                        <span><img src="images/logo.svg" width="200" alt="SocMed Global Uganda"></span>
-                    </div>
-                </div>
-            </div>
+            &copy; 2026 SocMed Global Uganda. All rights reserved. &nbsp;|&nbsp; Powered by <a href="https://www.grayhost.dev" target="_blank" rel="noopener">Grayhost Innovations</a>.
         </div>
-    </section>
+    </div>
+</footer>
 
-    <!-- ═══ VISION / MISSION / SLOGAN ═══ -->
-    <section class="ttm-row row-top-section clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="mt_40 mlr-30 res-767-mt-0">
-                        <div class="row row-equal-height ttm-bgcolor-white box-shadow2">
-                            <div class="col-lg-4 col-md-4 col-sm-12">
-                                <div class="featured-icon-box style1 top-icon text-center">
-                                    <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-md ttm-icon_element-style-square"><i class="fa fa-eye"></i></div>
-                                    <div class="featured-content">
-                                        <div class="featured-title"><h5>Our Vision</h5></div>
-                                        <div class="featured-desc"><p style="font-size:15px;">A Uganda free of health inequities</p></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 box-shadow2">
-                                <div class="featured-icon-box style1 top-icon text-center">
-                                    <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-md ttm-icon_element-style-square"><i class="fa fa-bullseye"></i></div>
-                                    <div class="featured-content">
-                                        <div class="featured-title"><h5>Our Mission</h5></div>
-                                        <div class="featured-desc"><p style="font-size:15px;">To promote health equity in Uganda, through practice, education, research, and empowerment</p></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12">
-                                <div class="featured-icon-box style1 top-icon text-center">
-                                    <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-md ttm-icon_element-style-square"><i class="fa fa-microphone"></i></div>
-                                    <div class="featured-content">
-                                        <div class="featured-title"><h5>Our Slogan</h5></div>
-                                        <div class="featured-desc"><p style="font-size:15px;">SocMed Global Uganda "Health Equity for all"</p></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ═══ OUR STORY SECTION REMOVED PER DOCUMENT ═══ -->
-
-    <!--desc-only-section-->
-    <section class="ttm-row desc-only-section style2 ttm-bgcolor-skincolor clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9 text-left">
-                    <h4 class="ttm-textcolor-white font-sz-27 font-w-500 mb-0">SocMed Global Uganda</h4>
-                </div>
-                <div class="col-md-3"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ═══ OUR IMPACT (carousel with images + per-page links) ═══ -->
-    <section class="ttm-row services2-section bg-img4 clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <div class="section-title with-desc title-style-center_text clearfix">
-                        <div class="title-header">
-                            <h5>SOCMED GLOBAL UGANDA</h5>
-                            <h2 class="title">OUR IMPACT</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2"></div>
-            </div>
-            <div class="row">
-                <div class="blog-slide owl-carousel owl-theme owl-loaded mt-5" data-item="3" data-nav="false" data-dots="false" data-auto="true">
-
-                    <!-- impact 1 -->
-                    <div class="featured-imagebox">
-                        <div class="featured-thumbnail">
-                            <a href="impact.html"><img class="img-fluid" src="images/blog/05.jpg" alt="Challenging Structural Inequities"></a>
-                        </div>
-                        <div class="ttm-box-bottom-content">
-                            <div class="featured-title"><h5><a href="impact.html">Challenging Structural Inequities in Health</a></h5></div>
-                            <div class="featured-desc">
-                                <p style="text-align:justify;word-spacing:-2px;">Through global South coalition building, partnerships, and interdisciplinary organizing, we connect local lived experiences to global advocacy efforts aimed at advancing justice and dismantling systemic inequities.</p>
-                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15" href="impact.html">READ MORE<i class="ti ti-angle-double-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- impact 2 -->
-                    <div class="featured-imagebox">
-                        <div class="featured-thumbnail">
-                            <a href="advocacy.html"><img class="img-fluid" src="images/blog/06.jpg" alt="Empowering Young Leaders"></a>
-                        </div>
-                        <div class="ttm-box-bottom-content">
-                            <div class="featured-title"><h5><a href="advocacy.html">Empowering a Conscious Generation of Young Leaders</a></h5></div>
-                            <div class="featured-desc">
-                                <p style="text-align:justify;word-spacing:-2px;">Hosting student-led debates that bring together young voices to question, challenge, and unpack structural inequities, strengthening awareness and sparking meaningful conversations on justice and health equity.</p>
-                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15" href="advocacy.html">READ MORE<i class="ti ti-angle-double-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- impact 3 -->
-                    <div class="featured-imagebox">
-                        <div class="featured-thumbnail">
-                            <a href="care-connect-amuru.html"><img class="img-fluid" src="images/blog/07.jpg" alt="Community Health Systems"></a>
-                        </div>
-                        <div class="ttm-box-bottom-content">
-                            <div class="featured-title"><h5><a href="care-connect-amuru.html">Supporting Community Health Systems in Underserved Regions</a></h5></div>
-                            <div class="featured-desc">
-                                <p style="text-align:justify;word-spacing:-2px;">We are helping frontline health workers reach households more quickly, improve referrals, and expand timely care to underserved communities in Amuru by equipping VHTs with bicycles.</p>
-                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15" href="care-connect-amuru.html">READ MORE<i class="ti ti-angle-double-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- impact 4 -->
-                    <div class="featured-imagebox">
-                        <div class="featured-thumbnail">
-                            <a href="apply.html"><img class="img-fluid" src="images/blog/08.jpg" alt="Social Medicine Course"></a>
-                        </div>
-                        <div class="ttm-box-bottom-content">
-                            <div class="featured-title"><h5><a href="apply.html">Training the Next Generation of Equity-Focused Health Professionals</a></h5></div>
-                            <div class="featured-desc">
-                                <p style="text-align:justify;word-spacing:-2px;">Annually, we support and deliver the Social Medicine Course as the Ugandan site alongside the other sites in Haiti and US, in partnership with Equal Health.</p>
-                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15" href="apply.html">READ MORE<i class="ti ti-angle-double-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- impact 5 -->
-                    <div class="featured-imagebox">
-                        <div class="featured-thumbnail">
-                            <a href="service-to-community.html"><img class="img-fluid" src="images/blog/05.jpg" alt="Care in Crisis"></a>
-                        </div>
-                        <div class="ttm-box-bottom-content">
-                            <div class="featured-title"><h5><a href="service-to-community.html">Care in the Midst of Crisis</a></h5></div>
-                            <div class="featured-desc">
-                                <p style="text-align:justify;word-spacing:-2px;">When COVID-19 disrupted communities, in collaboration with EqualHealth, we supported frontline health workers in Amuru and Paimol communities with essential protective supplies.</p>
-                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15" href="service-to-community.html">READ MORE<i class="ti ti-angle-double-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- impact 6 -->
-                    <div class="featured-imagebox">
-                        <div class="featured-thumbnail">
-                            <a href="impact.html#karamoja"><img class="img-fluid" src="images/blog/06.jpg" alt="Karamoja"></a>
-                        </div>
-                        <div class="ttm-box-bottom-content">
-                            <div class="featured-title"><h5><a href="impact.html#karamoja">Answering the Call in Karamoja</a></h5></div>
-                            <div class="featured-desc">
-                                <p style="text-align:justify;word-spacing:-2px;">Together with our partners, we reached hundreds of households in Abim District, Karamoja region with life-sustaining food support, offering relief in a moment of urgent need.</p>
-                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-icon-btn-right ttm-btn-style-border ttm-btn-color-black mt-15" href="impact.html#karamoja">READ MORE<i class="ti ti-angle-double-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- "Click to view" text REMOVED per document -->
-        </div>
-    </section>
-
-    <!-- ═══ PARTNERS (EqualHealth + Amuru + MUST + Merck) ═══ -->
-    <section class="ttm-row partners-section bg-img11 clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title with-desc title-style-center_text clearfix">
-                        <div class="title-header">
-                            <h5>OUR NETWORK</h5>
-                            <h2 class="title">Partners &amp; Collaborators</h2>
-                        </div>
-                        <div class="title-desc">We work alongside a growing network of organisations, institutions, and communities committed to advancing health equity across Uganda and beyond.</div>
-                    </div>
-                </div>
-            </div>
-            <div class="ttm-box-view-separator-logo pt-10">
-                <div class="row justify-content-center">
-
-                    <!-- EqualHealth -->
-                    <div class="col-sm-3 col-md-3 col-lg-3">
-                        <div class="client-box">
-                            <div class="ttm-client-logo-tooltip" data-tooltip="EqualHealth">
-                                <a href="https://www.equalhealth.org" target="_blank" rel="noopener">
-                                    <div class="client" style="padding:20px;">
-                                        <img class="img-fluid" src="images/equalhealth.png" alt="EqualHealth" style="max-width:180px;width:100%;height:80px;object-fit:contain;">
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Amuru VHTs -->
-                    <div class="col-sm-3 col-md-3 col-lg-3">
-                        <div class="client-box">
-                            <div class="ttm-client-logo-tooltip" data-tooltip="Amuru VHTs Association">
-                                <a href="https://www.amuruvht.com" target="_blank" rel="noopener">
-                                    <div class="client" style="padding:20px;">
-                                        <img class="img-fluid" src="images/amuru-vht.png" alt="Amuru VHTs Association" style="max-width:180px;width:100%;height:80px;object-fit:contain;">
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Merck Family Foundation (NEW) -->
-                    <div class="col-sm-3 col-md-3 col-lg-3">
-                        <div class="client-box">
-                            <div class="ttm-client-logo-tooltip" data-tooltip="Merck Family Foundation">
-                                <a href="https://www.merck-family-foundation.com/" target="_blank" rel="noopener">
-                                    <div class="client" style="padding:20px;">
-                                        <img class="img-fluid" src="images/merck-logo (2).png" alt="Merck Family Foundation" style="max-width:180px;width:100%;height:80px;object-fit:contain;">
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Mbarara University -->
-                    <div class="col-sm-3 col-md-3 col-lg-3">
-                        <div class="client-box">
-                            <div class="ttm-client-logo-tooltip" data-tooltip="Mbarara University of Science & Technology">
-                                <a href="https://www.must.ac.ug" target="_blank" rel="noopener">
-                                    <div class="client" style="padding:20px;">
-                                        <img class="img-fluid" src="images/MUST.png" alt="Mbarara University" style="max-width:180px;width:100%;height:80px;object-fit:contain;">
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ═══ JOIN US CTA (buttons centered + "Work With Us" replacing "Get Involved") ═══ -->
-    <section class="ttm-row desc-only-section style2 ttm-bgcolor-skincolor clearfix" style="padding:60px 0;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="ttm-textcolor-white" style="font-size:32px;font-weight:600;margin-bottom:15px;">Join Us in Advancing Health Equity</h2>
-                    <p class="ttm-textcolor-white" style="font-size:16px;max-width:700px;margin:0 auto 30px;opacity:0.95;">Whether you are a partner, supporter, or health professional, there is a place for you in this work. Together, we can build systems that bring care closer to every community.</p>
-                    <!-- Buttons centered and symmetrical; "Get Involved" → "Work With Us" -->
-                    <div style="display:flex;flex-wrap:wrap;gap:15px;justify-content:center;align-items:center;">
-                        <a href="contact-us.html" class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-white" style="color:#F36F21;font-weight:700;min-width:160px;text-align:center;">Partner With Us</a>
-                        <a href="donate.html" class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-white" style="font-weight:700;min-width:160px;text-align:center;">Donate</a>
-                        <a href="contact-us.html" class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-white" style="font-weight:700;min-width:160px;text-align:center;">Work With Us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ═══ FOOTER (paragraph removed; WhatsApp widget removed; 3 columns only) ═══ -->
-    <footer class="footer widget-footer clearfix">
-        <div class="first-footer"><div class="container"><div class="row"><div class="col-lg-12"></div></div></div></div>
-        <div class="second-footer ttm-textcolor-white">
-            <div class="container">
-                <div class="row justify-content-center">
-
-                    <!-- Work With Us -->
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 widget-area">
-                        <div class="widget widget_nav_menu clearfix">
-                            <h3 class="widget-title">Work With Us</h3>
-                            <ul id="menu-footer-work">
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="what-we-do.html">Our Programs</a></li>
-                                <li><a href="impact.html">Our Impact</a></li>
-                                <li><a href="leadership.html">Our Leadership</a></li>
-                                <li><a href="careers.html">Careers</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Associated Links -->
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 widget-area">
-                        <div class="widget widget_nav_menu clearfix">
-                            <h3 class="widget-title">Associated Links</h3>
-                            <ul id="menu-footer-links">
-                                <li><a href="https://equalhealth.org" target="_blank" rel="noopener">EqualHealth</a></li>
-                                <li><a href="https://www.merck-family-foundation.com/" target="_blank" rel="noopener">Merck Family Foundation</a></li>
-                                <li><a href="https://amuruvht.com" target="_blank" rel="noopener">Amuru VHTs Association</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Contact Us -->
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 widget-area">
-                        <div class="widget widget_text clearfix">
-                            <h3 class="widget-title">Contact Us</h3>
-                            <div class="textwidget widget-text">
-                                <p>Kampala, Uganda</p>
-                                <p>Email: <a href="mailto:info@socmedglobalug.org">info@socmedglobalug.org</a></p>
-                                <h3 class="ttm-textcolor-skincolor" style="font-size:20px;">+256 766 533 434<br>+256 741 049 377</h3>
-                                <div class="ttm-social-links-wrapper list-inline" style="margin-top:10px;">
-                                    <ul class="social-icons">
-                                        <li><a href="https://www.facebook.com/share/1MBparZQs6/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://x.com/socmedglobalug" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.instagram.com/socmedglobal" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/socmed-global-uganda" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.youtube.com/@SocMedGlobalUgandaLtd" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="bottom-footer-text ttm-textcolor-white">
-            <div class="container">
-                <div class="row copyright">
-                    <div class="col-md-8 ttm-footer2-left">
-                        <span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> .&nbsp;SocMed Global Uganda | Powered by <a href="https://www.grayhost.dev">Grayhost Innovations.</a></span>
-                    </div>
-                    <div class="col-md-4 ttm-footer2-right">
-                        <div class="social-icons"><ul class="list-inline">
-                            <li><a href="https://www.facebook.com/share/1MBparZQs6/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="https://x.com/socmedglobalug" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.instagram.com/socmedglobal" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/socmed-global-uganda" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.youtube.com/@SocMedGlobalUgandaLtd" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-                        </ul></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <a id="totop" href="#top"><i class="fa fa-angle-up"></i></a>
-
-</div><!-- page end -->
-
-<!-- Javascript -->
-<script src="js/jquery.min.js"></script>
-<script src="js/tether.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/color-switcher.js"></script>
-<script src="js/jquery.easing.js"></script>
-<script src="js/jquery-waypoints.js"></script>
-<script src="js/jquery-validate.js"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="js/jquery.prettyPhoto.js"></script>
-<script src="js/numinate.min6959.js?ver=4.9.3"></script>
-<script src="js/main.js"></script>
-<script src="revolution/js/jquery.themepunch.tools.min.js"></script>
-<script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-<script src="revolution/js/slider.js"></script>
-<script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-
-<script>
-    /* ── Rotating hero headline ── */
-    var heroLines = [
-        'Reimagining Health Systems.',
-        'Centering Communities.',
-        'Advancing Equity.'
-    ];
-    var heroIdx = 0;
-    var heroEl  = document.getElementById('heroHeadline');
-    if (heroEl) {
-        setInterval(function () {
-            heroEl.style.transition = 'opacity 0.4s, transform 0.4s';
-            heroEl.style.opacity   = '0';
-            heroEl.style.transform = 'translateY(-16px)';
-            setTimeout(function () {
-                heroIdx = (heroIdx + 1) % heroLines.length;
-                heroEl.textContent     = heroLines[heroIdx];
-                heroEl.style.transform = 'translateY(16px)';
-                heroEl.style.opacity   = '0';
-                setTimeout(function () {
-                    heroEl.style.transform = 'translateY(0)';
-                    heroEl.style.opacity   = '1';
-                }, 50);
-            }, 400);
-        }, 3000);
-    }
-
-    /* ── Sub-dropdown hover ── */
-    document.addEventListener('DOMContentLoaded', function () {
-        document.querySelectorAll('.smg-mega-right ul li').forEach(function (li) {
-            var sub = li.querySelector('.smg-sub-dropdown');
-            if (!sub) return;
-            li.addEventListener('mouseenter', function () { sub.style.display = 'block'; });
-            li.addEventListener('mouseleave', function () { sub.style.display = 'none'; });
-        });
-    });
-
-    /* ── Click mega ── */
-    document.addEventListener('DOMContentLoaded', function () {
-        var items = document.querySelectorAll('.smg-menu > li');
-        items.forEach(function (li) {
-            var link = li.querySelector(':scope > a');
-            var mega = li.querySelector('.smg-mega');
-            if (!link) return;
-            link.addEventListener('click', function (e) {
-                if (!mega) return;
-                e.preventDefault();
-                var wasOpen = li.classList.contains('open');
-                items.forEach(function (el) { el.classList.remove('open'); });
-                if (!wasOpen) li.classList.add('open');
-            });
-        });
-        document.addEventListener('click', function (e) {
-            if (!e.target.closest('.smg-menu')) {
-                items.forEach(function (el) { el.classList.remove('open'); });
-            }
-        });
-    });
-
-    function toggleMobileMenu() {
-        document.getElementById('smgMenu').classList.toggle('open');
-        document.getElementById('smgToggle').classList.toggle('active');
-    }
-</script>
-<!-- WhatsApp widget REMOVED per document -->
-
+<script src="js/site.js"></script>
 </body>
-</html> 
+</html>
